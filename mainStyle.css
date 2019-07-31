@@ -168,8 +168,8 @@ ul.sidenav li a:hover:not(.active) {
   ul.sidenav li a {
     text-align: center;
     float: none;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
   }
   ul.sidenav {
     text-align: center;
