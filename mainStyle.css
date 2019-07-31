@@ -55,6 +55,11 @@ iframe.googleDocs{
   height: 90vh;
 }
 
+#mainLogo {
+  float:right;
+  width: 20vw;
+  src
+}
 
 footer{
   margin-top: 2em;
@@ -66,6 +71,26 @@ footer{
 }
 
 /* Styling for navigation */
+
+ul.nav {
+  list-style-type: none;
+  width: 15%;
+  background-color: #767575;
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  position: fixed;
+
+}
+
+li a.nav {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 3vh;
+
+}
 
 ul.sidenav {
   top: 0;
@@ -127,6 +152,7 @@ ul.sidenav li :hover:not(.active) {
   ul.sidenav li a {
     float: left;
     padding: 15px;
+    text-decoration: none;
   }
 
   div.articles {margin-left: 0;}
@@ -150,6 +176,7 @@ ul.sidenav li :hover:not(.active) {
   ul.sidenav li a {
     float: left;
     padding: 15px;
+    text-decoration: none;
   }
 
   div.articles {margin-left: 0;}
@@ -167,7 +194,7 @@ ul.sidenav li :hover:not(.active) {
   ul.sidenav li a {
     text-align: center;
     float: none;
-
+    text-decoration: none;
   }
   ul.sidenav {
     text-align: center;
@@ -176,6 +203,11 @@ ul.sidenav li :hover:not(.active) {
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
   }
+
+  #mainLogo {
+    float:right;
+    width: 20vw;
+    content: url(Media/Images/stackedLogo.jpg);
 }
 
 @media screen and (max-width: 500px) {
@@ -183,23 +215,8 @@ ul.sidenav li :hover:not(.active) {
     text-align: center;
     float: none;
   }
-}
-
-ul.nav {
-  list-style-type: none;
-  width: 15%;
-  background-color: #767575;
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scrolling if the sidenav has too much content */
-  position: fixed;
-
-}
-
-li a.nav {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  display: block;
-  font-size: 3vh;
+  #mainLogo {
+    float:right;
+    width: 20vw;
+    src: url(http://www2.port.ac.uk/media/Media,199992,en.jpg);
 }
