@@ -26,7 +26,7 @@ div.articles {
 }
 
 article{
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
   padding-left: 1vw;
   padding-right: 1vw;
 }
@@ -168,11 +168,13 @@ ul.sidenav li a:hover:not(.active) {
   ul.sidenav li a {
     text-align: center;
     float: none;
-
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
   ul.sidenav {
     text-align: center;
   }
+
 }
 
 @media screen and (max-width: 500px) {
