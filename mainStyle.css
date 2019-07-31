@@ -168,13 +168,15 @@ ul.sidenav li a:hover:not(.active) {
   ul.sidenav li a {
     text-align: center;
     float: none;
-    padding-top: 30vh;
-    padding-bottom: 30vh;
+
   }
   ul.sidenav {
     text-align: center;
   }
-
+  ul.sidenav li {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+  }
 }
 
 @media screen and (max-width: 500px) {
