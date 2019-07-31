@@ -124,7 +124,7 @@ ul.sidenav li a:hover:not(.active) {
   }
 }
 
-@media screen and (max-device-width: 400px) {
+@media screen and (max-device-width: 500px) {
   ul.sidenav li a {
     text-align: center;
     float: none;
@@ -135,7 +135,7 @@ ul.sidenav li a:hover:not(.active) {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   ul.sidenav li a {
     text-align: center;
     float: none;
@@ -190,10 +190,12 @@ a{
   color: Black;
 }
 
+
 footer{
   margin-top: 2em;
   background-color: #33c2ff;
   height: 5em;
   padding-left: 15%;
-  padding-top: 2em
+  padding-top: 2em;
+
 }
