@@ -113,9 +113,8 @@ ul.sidenav {
   font-size: 2em;
 }
 
-ul.sidenav li a:hover:not(.active) {
+ul.sidenav li :hover:not(.active) {
   background-color: #2da0d1;
-  color: white;
 }
 
 @media screen and (max-device-width: 900px) {
@@ -203,9 +202,4 @@ li a.nav {
   text-decoration: none;
   display: block;
   font-size: 3vh;
-}
-
-li a.nav :hover:not(.active) {
-  background-color: #555;
-  color: white;
 }
