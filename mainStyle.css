@@ -8,12 +8,17 @@ body {
     background-color: white;
     color: black;
     line-height: 2em;
+    display: inline;
 }
 
 h1{
   display: inline-block;
   padding-left: 1em;
 
+}
+
+dd{
+  padding-left: 1vw;
 }
 
 div.articles {
@@ -59,6 +64,14 @@ iframe.googleDocs{
   float:right;
   width: 20vw;
   src
+}
+
+h2.Button{
+
+  float:right;
+  display: block;
+  padding: 0.25em;
+  margin-bottom: 0.25em
 }
 
 footer{
@@ -153,6 +166,12 @@ ul.sidenav li :hover:not(.active) {
     float: left;
     padding: 15px;
     text-decoration: none;
+  }
+
+  footer{
+    padding: 0;
+    padding-left: 2vw;
+    padding-top: 1em;
   }
 
   div.articles {margin-left: 0;}
