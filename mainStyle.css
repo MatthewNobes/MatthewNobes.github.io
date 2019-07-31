@@ -28,6 +28,7 @@ div.articles {
 article{
   padding-bottom: 10vh;
   padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 h2{
@@ -47,6 +48,11 @@ ul.inTextList {
 
 a{
   color: Black;
+}
+
+iframe.googleDocs{
+  width: 100%;
+  height: 90vh;
 }
 
 
