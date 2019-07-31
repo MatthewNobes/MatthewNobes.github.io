@@ -4,38 +4,6 @@
   font-family: "Helvetica Neue",sans-serif;
 }
 
-#sideProfile {
-
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-#profilePic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10vw;
-  height: auto;
-  border-radius: 25px;
-  margin-top: 5em;
-  ;
-}
-
-#navbutton {
-  outline: 0;
-  width: 4rem;
-  background-color: #767575;
-  text-decoration: none;
-  text-align: center;
-  background: inherit;
-  font-size: 100%;
-  border: none;
-  height: 100%;
-  flex-grow: 0;
-  font-size: 2em;
-}
-
 body {
     background-color: white;
     color: black;
@@ -89,4 +57,145 @@ footer{
   padding-left: 15%;
   padding-top: 2em;
 
+}
+
+/* Styling for navigation */
+
+ul.sidenav {
+  top: 0;
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15vw;
+
+  background-color:  #33c2ff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+#sideProfile {
+
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#profilePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vw;
+  height: auto;
+  border-radius: 25px;
+  margin-top: 5em;
+  ;
+}
+
+#navbutton {
+  outline: 0;
+  width: 4rem;
+  background-color: #767575;
+  text-decoration: none;
+  text-align: center;
+  background: inherit;
+  font-size: 100%;
+  border: none;
+  height: 100%;
+  flex-grow: 0;
+  font-size: 2em;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #2da0d1;
+  color: white;
+}
+
+@media screen and (max-device-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+
+  div.articles {margin-left: 0;}
+
+  #profilePic {
+    display: none;
+  }
+
+  #sideProfile{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+
+  div.articles {margin-left: 0;}
+
+  #profilePic {
+    display: none;
+  }
+
+  #sideProfile{
+    display: none;
+  }
+}
+
+@media screen and (max-device-width: 500px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+
+  }
+  ul.sidenav {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
+
+ul.nav {
+  list-style-type: none;
+  width: 15%;
+  background-color: #767575;
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  position: fixed;
+
+}
+
+li a.nav {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 3vh;
+}
+
+li a.nav :hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
