@@ -206,7 +206,7 @@ ul.sidenav li :hover:not(.active) {
 
   #mainLogo {
     float:right;
-    width: 20vw;
+    width: 35vw;
     content: url(Media/Images/stackedLogo.jpg);
 }
 
@@ -217,6 +217,6 @@ ul.sidenav li :hover:not(.active) {
   }
   #mainLogo {
     float:right;
-    width: 20vw;
-    src: url(http://www2.port.ac.uk/media/Media,199992,en.jpg);
+    width: 35vw;
+    content: url(Media/Images/stackedLogo.jpg);
 }
