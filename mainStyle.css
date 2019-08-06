@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: white;
+    background:  url(Media/Images/neSideBackground.jpg) 0 0 repeat;
     color: black;
     line-height: 2em;
     display: inline;
@@ -27,6 +27,9 @@ div.articles {
   padding-top: 8vh;
   margin-left: 15%;
   padding: 1px 16px;
+  background-color: white;
+  min-height: 90vh;
+  border-bottom-left-radius: 0.5em;
 
 }
 
@@ -34,6 +37,11 @@ article{
   padding-bottom: 5vh;
   padding-left: 1vw;
   padding-right: 1vw;
+}
+
+p {
+  padding-top: 0.5vh
+  padding-bottom: 1vh;
 }
 
 h2{
@@ -58,6 +66,7 @@ a{
 iframe.googleDocs{
   width: 100%;
   height: 90vh;
+
 }
 
 #mainLogo {
@@ -67,19 +76,22 @@ iframe.googleDocs{
 }
 
 h2.Button{
-
+  border-radius: 0.5em;
+  background-color: #33c2ff;
   float:right;
   display: block;
   padding: 0.25em;
-  margin-bottom: 0.25em
+  margin-bottom: 0.25em;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
+
 footer{
-  margin-top: 2em;
-  background-color: #33c2ff;
+
   height: 5em;
   padding-left: 15%;
-  padding-top: 2em;
+  padding-top: 1em;
 
 }
 
@@ -88,7 +100,6 @@ footer{
 ul.nav {
   list-style-type: none;
   width: 15%;
-  background-color: #767575;
   height: 100%; /* Full height */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
   position: fixed;
@@ -112,8 +123,6 @@ ul.sidenav {
   margin: 0;
   padding: 0;
   width: 15vw;
-
-  background-color:  #33c2ff;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -152,7 +161,8 @@ ul.sidenav {
 }
 
 ul.sidenav li :hover:not(.active) {
-  background-color: #2da0d1;
+
+  color: white;
 }
 
 @media screen and (max-device-width: 900px) {
@@ -228,6 +238,9 @@ ul.sidenav li :hover:not(.active) {
     width: 35vw;
     content: url(Media/Images/stackedLogo.jpg);
 }
+  div.articles {
+    border-radius: 1em;
+  }
 
 @media screen and (max-width: 500px) {
   ul.sidenav li a {
