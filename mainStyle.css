@@ -49,6 +49,10 @@ h2{
   padding-bottom: 1.5vh;
 }
 
+h3 {
+  padding-top: 1vh;
+}
+
 ul.linkList{
   padding-left: 2vw;
   color: black;
