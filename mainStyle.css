@@ -33,6 +33,18 @@ div.articles {
 
 }
 
+div.right {
+  float:right;
+}
+
+div.left {
+  float:left;
+}
+
+div.clearLeft {
+  clear: left;
+}
+
 article{
   padding-bottom: 5vh;
   padding-left: 1vw;
@@ -51,6 +63,7 @@ h2{
 
 h3 {
   padding-top: 1vh;
+
 }
 
 ul.linkList{
