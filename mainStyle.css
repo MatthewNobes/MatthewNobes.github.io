@@ -4,17 +4,21 @@
   font-family: "Helvetica Neue",sans-serif;
 }
 
+a{
+  color: Black;
+}
+
+article{
+  padding-bottom: 5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
 body {
     background:  url(Media/Images/neSideBackground.jpg) 0 0 repeat;
     color: black;
     line-height: 2em;
     display: inline;
-}
-
-h1{
-  display: inline-block;
-  padding-left: 1em;
-
 }
 
 dd{
@@ -30,66 +34,34 @@ div.articles {
   background-color: white;
   min-height: 90vh;
   border-bottom-left-radius: 0.5em;
-
-}
-
-div.right {
-  float:right;
-}
-
-div.left {
-  float:left;
 }
 
 div.clearLeft {
   clear: left;
 }
 
-article{
-  padding-bottom: 5vh;
-  padding-left: 1vw;
-  padding-right: 1vw;
+div.left {
+  float:left;
 }
 
-p {
-  padding-top: 0.5vh
-  padding-bottom: 1vh;
+div.right {
+  float:right;
+}
+
+footer {
+  height: 5em;
+  padding-left: 15%;
+  padding-top: 1em;
+}
+
+h1{
+  display: inline-block;
+  padding-left: 1em;
 }
 
 h2{
   padding-top: 1vh;
   padding-bottom: 1.5vh;
-}
-
-h3 {
-  padding-top: 1vh;
-
-}
-
-ul.linkList{
-  padding-left: 2vw;
-  color: black;
-}
-
-ul.inTextList {
-  padding-left: 1vw;
-  text-decoration-color: black;
-}
-
-a{
-  color: Black;
-}
-
-iframe.googleDocs{
-  width: 100%;
-  height: 90vh;
-
-}
-
-#mainLogo {
-  float:right;
-  width: 20vw;
-  src
 }
 
 h2.Button{
@@ -103,16 +75,43 @@ h2.Button{
   padding-right: 1vw;
 }
 
-
-footer{
-
-  height: 5em;
-  padding-left: 15%;
-  padding-top: 1em;
-
+h3 {
+  padding-top: 1vh;
 }
 
-/* Styling for navigation */
+iframe.googleDocs{
+  width: 100%;
+  height: 90vh;
+}
+
+p {
+  padding-top: 0.5vh
+  padding-bottom: 1vh;
+}
+
+ul.inTextList {
+  padding-left: 1vw;
+  text-decoration-color: black;
+}
+
+ul.linkList{
+  padding-left: 2vw;
+  color: black;
+}
+
+
+#mainLogo {
+  float:right;
+  width: 20vw;
+  src
+}
+
+
+
+
+
+
+/*Navigation Style*/
 
 ul.nav {
   list-style-type: none;
@@ -120,7 +119,6 @@ ul.nav {
   height: 100%;
   overflow: auto;
   position: fixed;
-
 }
 
 li a.nav {
@@ -129,7 +127,6 @@ li a.nav {
   text-decoration: none;
   display: block;
   font-size: 3vh;
-
 }
 
 ul.sidenav {
@@ -147,7 +144,6 @@ ul.sidenav {
 #sideProfile {
   text-align: center;
   padding-top: 5%;
-
 }
 
 #profilePic {
@@ -176,7 +172,6 @@ ul.sidenav {
 }
 
 ul.sidenav li a:hover:not(.active) {
-
   color: white;
 }
 
@@ -199,7 +194,9 @@ ul.sidenav li a:hover:not(.active) {
     padding-top: 1em;
   }
 
-  div.articles {margin-left: 0;}
+  div.articles {
+    margin-left: 0;
+  }
 
   #profilePic {
     display: none;
@@ -223,7 +220,9 @@ ul.sidenav li a:hover:not(.active) {
     text-decoration: none;
   }
 
-  div.articles {margin-left: 0;}
+  div.articles {
+    margin-left: 0;
+  }
 
   #profilePic {
     display: none;
