@@ -4,12 +4,11 @@ import {
   Switch,
   Route,
   Link,
-  useRouteMatch,
-  useParams
 } from "react-router-dom";
 import Header from './Components/header/header';
 import Footer from './Components/footer/footer';
 
+//Importing pages
 import Home from './Components/main-pages/Home';
 import About from './Components/main-pages/About';
 import Projects from './Components/main-pages/Projects';
@@ -49,14 +48,9 @@ function App() {
       </div>
     </Router>
       </nav>
-      <body>
-        <p>
-          The main contents will go here.
-        </p>
         <footer className="App-Footer">
           <Footer />
         </footer>
-      </body>
     </div>
   );
 }
