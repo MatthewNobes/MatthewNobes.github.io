@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -19,6 +25,45 @@
 }
 
 
+/* React Router Styling */
+.React-Router-headlinks{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #282c34;
+}
+
+.React-Router-Group {
+  width: 100%;
+  display: flex;
+  
+  background-color: #282c34;
+}
+
+.React-Router-sublinks {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #282c34;
+}
+
+
+.React-Router-Links:hover {
+  background-color: #111;
+}
+
+.React-Router-Links {
+  background-color: #282c34;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /*Footer Styles */
 
 .App-Footer {
@@ -28,4 +73,31 @@
   background-color: #282c34;
   color: white;
   min-width: 100vw;
+}
+
+/*Page styling */
+.Main-Content {
+  margin: auto;
+  max-width: 1400px;
+  vertical-align: middle;
+  
+ 
+}
+
+.Main-Title {
+  text-align: center ;
+  
+}
+
+.Main-Paragraph {
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+
+.Sub-Title {
+  text-align: center ;
+}
+
+.Standard-List {
+  margin-left: 2vw;
 }
