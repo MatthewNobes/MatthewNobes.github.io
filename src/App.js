@@ -13,7 +13,7 @@ import Home from './Components/main-pages/Home';
 import About from './Components/main-pages/About';
 import Projects from './Components/main-pages/Projects';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -54,5 +54,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
