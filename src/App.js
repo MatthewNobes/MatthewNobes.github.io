@@ -10,7 +10,6 @@ import Footer from './Components/footer/footer';
 
 //Importing pages
 import Home from './Components/main-pages/Home';
-import About from './Components/main-pages/About';
 import Projects from './Components/main-pages/Projects';
 
 export default function App() {
@@ -24,10 +23,7 @@ export default function App() {
       <div>
         <ul className="React-Router-Group">
           <li className="React-Router-headlinks">
-            <Link className="React-Router-Links" to="/">Home</Link>
-          </li>
-          <li className="React-Router-headlinks">
-            <Link className="React-Router-Links" to="/about">About</Link>
+            <Link className="React-Router-Links" to="/">About</Link>
           </li>
           <li className="React-Router-headlinks">
             <Link className="React-Router-Links" to="/Projects">Projects</Link>
@@ -35,9 +31,6 @@ export default function App() {
         </ul>
 
         <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
           <Route path="/Projects">
             <Projects />
           </Route>
