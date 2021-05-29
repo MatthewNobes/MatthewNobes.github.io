@@ -11,7 +11,7 @@ export default function Projects() {
       {projectsList.map((data, key) => {
           return (
             
-            <div  className="Main-Content">
+            <div>
               <h2 className='Sub-Title'>{data.projectName}</h2>
               <h3 className='Sub-Title' id='Language'>Developed in {data.primiaryLanguage}</h3>
               <p className="Main-Paragraph">

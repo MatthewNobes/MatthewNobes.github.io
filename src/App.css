@@ -79,7 +79,7 @@
   vertical-align: middle;
   padding-left: 2.5vw;
   padding-right: 2.5vw;
-  padding-bottom: 10vh;
+  padding-bottom: 7.5vh;
 }
 
 .Main-Title {
@@ -88,7 +88,7 @@
 }
 
 .Main-Paragraph {
-  
+  text-align: justify;
   padding-top: 1vh;
 }
 

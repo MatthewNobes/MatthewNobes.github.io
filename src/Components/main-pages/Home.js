@@ -2,7 +2,7 @@ import '../../App.css';
 
 export default function Home() {
   return (
-    <div>
+    <div className="Main-Content">
         <h1 className='Main-Title'>About Me</h1>
         <p className='Main-Paragraph'> I am a student at The University of Portsmouth, where I study Cyber Secuity and Digital Forensics.
 
