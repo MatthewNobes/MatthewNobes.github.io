@@ -4,6 +4,10 @@
   border: 0;
 }
 
+a {
+  color: Black;
+}
+
 .App {
   text-align: center;
 }
