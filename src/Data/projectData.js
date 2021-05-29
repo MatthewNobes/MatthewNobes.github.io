@@ -13,4 +13,32 @@ export const projectsList = [
       description: "A collection of different functions and algorithms. These can be quickly copied over into JavaScript programs. ",
       primiaryLanguage: "JavaScript",
     },
+    {
+      projectName: "University Web Development Coursework",
+      repoLink: "https://github.com/MatthewNobes/UniWebsiteCoursework",
+      pagesLink: "https://matthewnobes.github.io/UniWebsiteCoursework/",
+      description: "In my first year of university, I studied a web development course. The coursework for this was a small website that was required to contain a logbook from the course, an image, and a video. The website also had to adhere to the validation standards set out by W3.",
+      primiaryLanguage: "HTML",
+    },
+    {
+      projectName: "Pizza Ordering System",
+      repoLink: "https://github.com/MatthewNobes/PizzaOrderSystem",
+      pagesLink: "https://matthewnobes.github.io/PizzaOrderSystem/",
+      description: "This program was made as a piece of coursework as part of my first year at Portsmouth University for an introductory programming unit, used to test students' Java ability and use of classes. The program is designed to complete three tasks. The first is to the program itself completes a basic task but uses more advanced programming concepts to make it more efficient than if written without using classes.",
+      primiaryLanguage: "Java",
+    },
+    {
+      projectName: "Personal Portfolio Website",
+      repoLink: "https://github.com/MatthewNobes/MatthewNobes.github.io",
+      pagesLink: "https://matthewnobes.github.io/",
+      description: "The website your currently viewing is hosted using GitHub pages, therefor I have made the repository for it publicly available to view. I made this site inorder to showcase my projects, as well as a place to store and access my help guides.",
+      primiaryLanguage: "HTML",
+    },
+    {
+      projectName: "Morse Code Translator",
+      repoLink: "https://github.com/MatthewNobes/Morse",
+      pagesLink: "https://matthewnobes.github.io/Morse/",
+      description: "I created this project as a tool that will be used for a future project, the enigma machine. It will be used to translate the letters into morse to be sent to other machines. It has the capability to encode and decode morse code using an array to store the morse code for each letter in the position of its ASCII character. As well as this it is my first attempt at using audio within a C# program. It is used to play the audio sounds for the morse code. The program also has a copy to clipboard function.",
+      primiaryLanguage: "C#",
+    },
   ];
