@@ -92,6 +92,11 @@
   padding-top: 1vh;
 }
 
+.Main-List {
+  padding-left: 2.5vw;
+  text-align: justify;
+}
+
 .Sub-Title {
   text-align: left ;
 }
