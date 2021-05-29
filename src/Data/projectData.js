@@ -31,7 +31,7 @@ export const projectsList = [
       projectName: "Personal Portfolio Website",
       repoLink: "https://github.com/MatthewNobes/MatthewNobes.github.io",
       pagesLink: "https://matthewnobes.github.io/",
-      description: "The website your currently viewing is hosted using GitHub pages, therefor I have made the repository for it publicly available to view. I made this site inorder to showcase my projects, as well as a place to store and access my help guides.",
+      description: "The website your currently viewing is hosted using GitHub pages, therefor I have made the repository for it publicly available to view. I made this site inorder to showcase my projects. I have recently upgraded this site to a brand new React based version. ",
       primiaryLanguage: "HTML",
     },
     {
