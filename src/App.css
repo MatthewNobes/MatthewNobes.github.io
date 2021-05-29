@@ -8,6 +8,15 @@ a {
   color: Black;
 }
 
+dd {
+  padding-left: 2.5vw;
+}
+
+li {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
 .App {
   text-align: center;
 }
