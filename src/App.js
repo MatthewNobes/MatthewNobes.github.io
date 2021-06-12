@@ -22,10 +22,10 @@ export default function App() {
       <Router className="React-Router">
       <div>
         <ul className="React-Router-Group">
-          <li className="React-Router-headlinks">
+          <li className="React-Router-Headlinks">
             <Link className="React-Router-Links" to="/">About</Link>
           </li>
-          <li className="React-Router-headlinks">
+          <li className="React-Router-Headlinks">
             <Link className="React-Router-Links" to="/Projects">Projects</Link>
           </li>
         </ul>
