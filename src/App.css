@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   border: 0;
+
 }
 
 a {
@@ -13,8 +14,8 @@ dd {
 }
 
 li {
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
+  padding-bottom: 0.25em;
+  padding-top: 0.25em;
 }
 
 .App {
@@ -30,11 +31,8 @@ li {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-  
+  color: white; 
 }
-
-
 
 /* React Router Styling */
 .React-Router-Headlinks{
@@ -62,7 +60,6 @@ li {
   background-color: #282c34;
 }
 
-
 .React-Router-Links:hover {
   background-color: #111;
 }
@@ -77,11 +74,11 @@ li {
 }
 
 /*Footer Styles */
-
 .App-Footer {
   text-align: center;
   position: fixed;
   bottom: 0;
+  height: 2em;
   background-color: #282c34;
   color: white;
   min-width: 100vw;
@@ -139,7 +136,6 @@ li {
   padding: 10px;
   margin: 10px;
   position: sticky;
-
   display: inline-block;
 }
 
