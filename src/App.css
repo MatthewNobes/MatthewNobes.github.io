@@ -31,6 +31,7 @@ li {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 
@@ -47,7 +48,8 @@ li {
 .React-Router-Group {
   width: 100%;
   display: flex;
-  
+  position: sticky;
+  top: 0;
   background-color: #282c34;
 }
 
