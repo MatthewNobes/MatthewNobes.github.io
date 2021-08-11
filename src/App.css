@@ -143,3 +143,10 @@ li {
   background-color: #2a5966;
   color: white;
 }
+
+/* Profile image styling */
+.home-profileImage {
+  height: 40vh;
+  width: auto;
+  
+}
