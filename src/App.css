@@ -149,4 +149,13 @@ li {
   height: 40vh;
   width: auto;
   
+  display: inline;
+  
+  
+}
+
+@media screen and (min-width: 450px) {
+  .home-profileImage {
+    float: right;
+  }
 }
