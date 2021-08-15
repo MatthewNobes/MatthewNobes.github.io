@@ -46,7 +46,7 @@ export default function Projects() {
                 <p className="Main-Paragraph">
                   {data.description}
                 </p>
-                <Button className="Project-External-Links"  href={data.repoLink} target="_blank">View on GitHub</Button>
+                <Button className="Project-External-Links"  id="git" href={data.repoLink} target="_blank">View on GitHub</Button>
                 <Button className="Project-External-Links"  href={data.pagesLink}>More details</Button>
               </div>
             );
