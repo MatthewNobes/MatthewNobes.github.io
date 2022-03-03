@@ -12,16 +12,6 @@ const Title = () => {
 }
 
 async function getProjects()  {
-  /**
-  try {
-    const response = await axios.get(`https://api.github.com/users/matthewnobes/repos`).then(() => {
-    return(response.data);
-  })  
-  }
-  catch (error){
-      return([]);
-  }
-  */
   try {
     const response = await axios.get(`https://api.github.com/users/matthewnobes/repos`);
     return(response.data)
