@@ -1,7 +1,7 @@
 import '../../App.css';
 
-export default function Header() {
-  return (
+const Header = () => (
     <h1>Matthew Nobes</h1>
-  );
-}
+);
+
+export default Header;
