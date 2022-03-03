@@ -1,14 +1,37 @@
 import '../../App.css';
-import Button from 'react-bootstrap/Button';
-import {projectsList} from '../../Data/projectData';
+import { useState, useEffect } from 'react';
+import { projectsData } from '../../Data/projectData';
+import axios from 'axios';
 
-function Title() {
+import Project from './Project';
+
+const Title = () => {
   return (
     <h1 className="Main-Title">Projects</h1>
   )
 }
 
-function Introduction() {
+async function getProjects()  {
+  /**
+  try {
+    const response = await axios.get(`https://api.github.com/users/matthewnobes/repos`).then(() => {
+    return(response.data);
+  })  
+  }
+  catch (error){
+      return([]);
+  }
+  */
+  try {
+    const response = await axios.get(`https://api.github.com/users/matthewnobes/repos`);
+    return(response.data)
+  }
+  catch (error){
+      console.log(error);
+  }
+}
+
+const Introduction = () => {
   return(
     <div className='Main-Content'>
       <p className="Main-Paragraph">
@@ -26,32 +49,40 @@ function Introduction() {
       <p className="Main-Paragraph">
           Many examples of my personal projects can be found on my GitHub. I have not to included all the projects I have made. This is due to the fact that some of these contain sensitive information I do not wish to make public. Some of these projects are hacking tools I have developed that if used with malicious intent, could cause harm to others. I have therefore made some repositories private, in an effort to protect others.
       </p>
+      <p className="Main-Paragraph">
+        The projects listed below have been pulled directly from GitHub, using the GitHub REST API. This list includes all of my public repositories.
+      </p>
     </div>
   )
 }
 
-export default function Projects() {
+const ProjectsList = () => {
+  const [projectsList, appendProjectList] = useState([projectsData]);
+  
+  useEffect(() => {
+    getProjects().then((result)=> appendProjectList(result));
+    
+  })
+
+  return (
+    <div className='Main-Content'>
+        {projectsList.map((list, i) => {
+          return (
+            <Project projectName={projectsList[i].name} primaryLanguage={projectsList[i].language} description={projectsList[i].description} repoLink={projectsList[i].html_url} pagesLink={projectsList[i].name}/>      
+          );
+        })}
+    </div>
+  );
+}
+
+const ProjectsPage = () => {
   return (
     <div>
         <Title />
         <Introduction />
-      <div className='Main-Content'>
-        
-        {projectsList.map((data, key) => {
-            return (
-              
-              <div>
-                <h2 className='Sub-Title'>{data.projectName}</h2>
-                <h3 className='Sub-Title' id='Language'>Developed in {data.primiaryLanguage}</h3>
-                <p className="Main-Paragraph">
-                  {data.description}
-                </p>
-                <Button className="Project-External-Links"  id="git" href={data.repoLink} target="_blank">View on GitHub</Button>
-                <Button className="Project-External-Links"  href={data.pagesLink}>More details</Button>
-              </div>
-            );
-          })}
-      </div>
+        <ProjectsList />
     </div>
   );
 }
+
+export default ProjectsPage;
