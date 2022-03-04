@@ -22,6 +22,10 @@ li {
   text-align: center;
 }
 
+.SubHeading {
+  text-align: left;
+}
+
 /*Header Styles */
 .App-header {
   background-color: #282c34;
