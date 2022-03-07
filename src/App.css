@@ -1,8 +1,7 @@
-*{
+* {
   padding: 0;
   margin: 0;
   border: 0;
-
 }
 
 a {
@@ -35,11 +34,11 @@ li {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white; 
+  color: white;
 }
 
 /* React Router Styling */
-.React-Router-Headlinks{
+.React-Router-Headlinks {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -99,7 +98,7 @@ li {
 }
 
 .Main-Title {
-  text-align: center ;
+  text-align: center;
   font-size: calc(25px + 2vmin);
 }
 
@@ -114,7 +113,7 @@ li {
 }
 
 .Sub-Title {
-  text-align: left ;
+  text-align: left;
 }
 
 .Standard-List {
@@ -128,7 +127,7 @@ li {
 }
 
 #Language {
-  color:grey;
+  color: grey;
 }
 
 .Project-External-Links {
