@@ -1,6 +1,6 @@
 import "./App.css";
-import Header from "./Components/Header/Header";
-import Footer from "./Components/Footer/Footer";
+import Header from "./Components/placeholder/Header/Header";
+import Footer from "./Components/placeholder/Footer/Footer";
 import Nav from "./Components/Nav";
 
 const App = () => (
