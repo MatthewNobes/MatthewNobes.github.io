@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
-import Footer from "./Components/Footer/Footer";
+import Footer from "./Components/Footer";
 import Home from "./Components/main-pages/Home";
 import Projects from "./Components/main-pages/Projects";
 import Nav from "./Components/Nav";
@@ -16,9 +16,8 @@ const App = () => (
       <Route path="/Projects" element={<Projects />} />
       <Route path="/" element={<Home />} />
     </Routes>
-    <footer className="App-Footer">
-      <Footer />
-    </footer>
+
+    <Footer />
   </div>
 );
 

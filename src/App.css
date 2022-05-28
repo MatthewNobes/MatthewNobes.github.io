@@ -76,17 +76,6 @@ li {
   text-decoration: none;
 }
 
-/*Footer Styles */
-.App-Footer {
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  height: 2em;
-  background-color: #282c34;
-  color: white;
-  min-width: 100vw;
-}
-
 /*Page styling */
 .Main-Content {
   margin: auto;

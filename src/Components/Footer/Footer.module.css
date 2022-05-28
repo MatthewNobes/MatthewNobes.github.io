@@ -1,0 +1,7 @@
+.footer {
+  bottom: 0;
+  height: 10em;
+  background-color: #282c34;
+  color: white;
+  min-width: 100vw;
+}

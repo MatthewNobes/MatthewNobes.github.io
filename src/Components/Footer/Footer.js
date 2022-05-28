@@ -1,5 +1,7 @@
-import "../../App.css";
+import css from "./Footer.module.css";
 
-const Footer = () => <h2>Thank you for visiting!</h2>;
-
-export default Footer;
+export const Footer = () => (
+  <div className={css.footer}>
+    <h2>Thank you for visiting!</h2>
+  </div>
+);
