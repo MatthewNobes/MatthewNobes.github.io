@@ -21,7 +21,7 @@ export const Home = () => (
         >
           Cyber Security and Forensic Computing
         </a>
-        . I also work as a Software Developer at a multi-national defence
+        . I also work as a Software Developer at a multi-national defense
         company.
       </p>
       <p className="Main-Paragraph">
