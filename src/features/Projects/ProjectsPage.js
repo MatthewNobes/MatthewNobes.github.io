@@ -41,6 +41,8 @@ export const ProjectsPage = () => (
   <>
     <Title />
     <Introduction />
-    <ProjectsList />
+    <div className="Main-Content">
+      <ProjectsList />
+    </div>
   </>
 );

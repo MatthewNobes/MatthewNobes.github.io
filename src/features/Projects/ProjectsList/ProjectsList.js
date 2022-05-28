@@ -12,19 +12,20 @@ export const ProjectsList = () => {
   }, [holder]);
 
   return (
-    <div className="Main-Content">
-      {projectsList.map((list) => {
+    <>
+      {projectsList.map((project) => {
         return (
           <Project
-            key={list.id}
-            projectName={list.name}
-            primaryLanguage={list.language}
-            description={list.description}
-            repoLink={list.html_url}
-            pagesLink={list.name}
+            key={project.id}
+            id={project.id}
+            projectName={project.name}
+            primaryLanguage={project.language}
+            description={project.description}
+            repoLink={project.html_url}
+            pagesLink={project.name}
           />
         );
       })}
-    </div>
+    </>
   );
 };

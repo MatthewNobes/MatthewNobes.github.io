@@ -2,7 +2,7 @@ import Button from "react-bootstrap/Button";
 
 export const Project = (props) => {
   return (
-    <div>
+    <div key={props.id}>
       <h2 className="Sub-Title">{props.projectName}</h2>
       <h3 className="Sub-Title" id="Language">
         Developed in {props.primaryLanguage}
