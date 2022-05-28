@@ -1,21 +1,10 @@
 import "../../App.css";
 import { useState, useEffect } from "react";
-import { projectsData } from "../../Data/projectData";
-import axios from "axios";
+import { projectsData } from "../../data/projectData";
 import Project from "./Project";
+import getProjects from "./getProjects";
 
 const Title = () => <h1 className="Main-Title">Projects</h1>;
-
-const getProjects = async () => {
-  try {
-    const response = await axios.get(
-      `https://api.github.com/users/matthewnobes/repos`
-    );
-    return response.data;
-  } catch (error) {
-    console.log(error);
-  }
-};
 
 const Introduction = () => (
   <div className="Main-Content">
