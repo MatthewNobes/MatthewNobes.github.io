@@ -53,22 +53,24 @@ const Introduction = () => (
 );
 
 const ProjectsList = () => {
+  const holder = true;
   const [projectsList, appendProjectList] = useState([projectsData]);
 
   useEffect(() => {
     getProjects().then((result) => appendProjectList(result));
-  });
+  }, [holder]);
 
   return (
     <div className="Main-Content">
-      {projectsList.map((list, i) => {
+      {projectsList.map((list) => {
         return (
           <Project
-            projectName={projectsList[i].name}
-            primaryLanguage={projectsList[i].language}
-            description={projectsList[i].description}
-            repoLink={projectsList[i].html_url}
-            pagesLink={projectsList[i].name}
+            key={list.id}
+            projectName={list.name}
+            primaryLanguage={list.language}
+            description={list.description}
+            repoLink={list.html_url}
+            pagesLink={list.name}
           />
         );
       })}
