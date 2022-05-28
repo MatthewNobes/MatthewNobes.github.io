@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./Components/Header/Header";
+import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./features/Home";
 import Projects from "./features/Projects";
@@ -8,9 +8,7 @@ import { Routes, Route } from "react-router-dom";
 
 const App = () => (
   <div className="App">
-    <header className="App-header">
-      <Header />
-    </header>
+    <Header />
     <Nav />
     <Routes>
       <Route path="/Projects" element={<Projects />} />
