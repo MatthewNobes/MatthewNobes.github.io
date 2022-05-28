@@ -1,7 +1,10 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
+import Home from "./Components/main-pages/Home";
+import Projects from "./Components/main-pages/Projects";
 import Nav from "./Components/Nav";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => (
   <div className="App">
@@ -9,6 +12,10 @@ const App = () => (
       <Header />
     </header>
     <Nav />
+    <Routes>
+      <Route path="/Projects" element={<Projects />} />
+      <Route path="/" element={<Home />} />
+    </Routes>
     <footer className="App-Footer">
       <Footer />
     </footer>

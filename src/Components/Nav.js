@@ -1,6 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
-import Home from "./main-pages/Home";
-import Projects from "./main-pages/Projects";
+import { Link } from "react-router-dom";
 
 const Nav = () => (
   <nav>
@@ -16,10 +14,6 @@ const Nav = () => (
         </Link>
       </li>
     </ul>
-    <Routes>
-      <Route path="/Projects" element={<Projects />} />
-      <Route path="/" element={<Home />} />
-    </Routes>
   </nav>
 );
 
