@@ -2,7 +2,7 @@ export const ContactDetails = () => (
   <div className="Main-Content">
     <h1 className="SubHeading">Contact Details </h1>
     <p className="Main-Paragraph">
-      <ul class="Main-List">
+      <ul className="Main-List">
         <li>Email</li>
         <dd>
           <a
