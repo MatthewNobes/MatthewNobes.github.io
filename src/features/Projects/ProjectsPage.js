@@ -1,8 +1,5 @@
 import "../../App.css";
-import { useState, useEffect } from "react";
-import { projectsData } from "../../data/projectData";
-import Project from "./Project";
-import getProjects from "./getProjects";
+import ProjectsList from "./ProjectsList";
 
 const Title = () => <h1 className="Main-Title">Projects</h1>;
 
@@ -39,32 +36,6 @@ const Introduction = () => (
     </p>
   </div>
 );
-
-const ProjectsList = () => {
-  const holder = true;
-  const [projectsList, appendProjectList] = useState([projectsData]);
-
-  useEffect(() => {
-    getProjects().then((result) => appendProjectList(result));
-  }, [holder]);
-
-  return (
-    <div className="Main-Content">
-      {projectsList.map((list) => {
-        return (
-          <Project
-            key={list.id}
-            projectName={list.name}
-            primaryLanguage={list.language}
-            description={list.description}
-            repoLink={list.html_url}
-            pagesLink={list.name}
-          />
-        );
-      })}
-    </div>
-  );
-};
 
 export const ProjectsPage = () => (
   <>
