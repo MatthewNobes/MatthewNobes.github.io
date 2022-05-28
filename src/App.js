@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer";
 import Home from "./Components/main-pages/Home";
-import Projects from "./Components/main-pages/Projects";
+import Projects from "./features/Projects";
 import Nav from "./Components/Nav";
 import { Routes, Route } from "react-router-dom";
 

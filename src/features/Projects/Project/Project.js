@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 
-const Project = (props) => {
+export const Project = (props) => {
   return (
     <div>
       <h2 className="Sub-Title">{props.projectName}</h2>
@@ -25,5 +25,3 @@ const Project = (props) => {
     </div>
   );
 };
-
-export default Project;

@@ -2,7 +2,6 @@ import "../../App.css";
 import { useState, useEffect } from "react";
 import { projectsData } from "../../Data/projectData";
 import axios from "axios";
-
 import Project from "./Project";
 
 const Title = () => <h1 className="Main-Title">Projects</h1>;
@@ -78,12 +77,10 @@ const ProjectsList = () => {
   );
 };
 
-const ProjectsPage = () => (
+export const ProjectsPage = () => (
   <>
     <Title />
     <Introduction />
     <ProjectsList />
   </>
 );
-
-export default ProjectsPage;
