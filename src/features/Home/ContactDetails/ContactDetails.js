@@ -1,7 +1,7 @@
 export const ContactDetails = () => (
   <div className="Main-Content">
     <h1 className="SubHeading">Contact Details </h1>
-    <p className="Main-Paragraph">
+    <div className="Main-Paragraph">
       <ul className="Main-List">
         <li>Email</li>
         <dd>
@@ -37,6 +37,6 @@ export const ContactDetails = () => (
           </a>
         </dd>
       </ul>
-    </p>
+    </div>
   </div>
 );
