@@ -7,10 +7,18 @@ export const ButtonPanel = (props) => {
 
   return (
     <div className={css.ButtonPanel}>
-      <Button id={css.git} href={repoLink} target="_blank">
+      <Button
+        variant="outline-primary"
+        id={css.git}
+        href={repoLink}
+        target="_blank"
+      >
         View on GitHub
       </Button>
-      <Button href={"https://matthewnobes.github.io/" + pagesLink}>
+      <Button
+        variant="outline-primary"
+        href={"https://matthewnobes.github.io/" + pagesLink}
+      >
         Try it out!
       </Button>
     </div>
