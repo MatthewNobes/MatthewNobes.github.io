@@ -4,10 +4,6 @@
   border: 0;
 }
 
-a {
-  color: Black;
-}
-
 dd {
   padding-left: 2.5vw;
 }
@@ -101,10 +97,6 @@ li {
 .Project-Title {
   display: block;
   text-align: left;
-}
-
-#Language {
-  color: grey;
 }
 
 /* Profile image styling */
