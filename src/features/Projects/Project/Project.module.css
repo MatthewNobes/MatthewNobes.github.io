@@ -1,27 +1,3 @@
 .Project {
   text-align: left;
 }
-
-.ProjectTitle {
-}
-
-.Badge {
-  text-align: left;
-}
-
-.ProjectExternalLinks {
-  padding: 10px;
-  margin: 10px;
-  position: sticky;
-  display: inline-block;
-}
-
-.Project-External-Links:hover {
-  background-color: #2a5966;
-  color: white;
-}
-
-#git:hover {
-  background-color: #6e5494;
-  color: white;
-}
