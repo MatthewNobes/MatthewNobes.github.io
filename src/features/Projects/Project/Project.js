@@ -1,9 +1,11 @@
 import Button from "react-bootstrap/Button";
+import LanguageBadge from "./LanguageBadge";
 
 export const Project = (props) => {
   return (
     <div key={props.id}>
       <h2 className="Sub-Title">{props.projectName}</h2>
+      <LanguageBadge language={props.primaryLanguage} />
       <h3 className="Sub-Title" id="Language">
         Developed in {props.primaryLanguage}
       </h3>
