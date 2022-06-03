@@ -10,7 +10,7 @@ export const ProjectsList = () => {
   useEffect(() => {
     getProjects().then((result) => appendProjectList(result));
   }, [holder]);
-
+  console.log(projectsList);
   return (
     <>
       {projectsList.map((project) => {
@@ -23,6 +23,7 @@ export const ProjectsList = () => {
             description={project.description}
             repoLink={project.html_url}
             pagesLink={project.homepage}
+            issueCount={project.open_issues}
           />
         );
       })}
