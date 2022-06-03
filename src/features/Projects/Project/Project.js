@@ -8,7 +8,7 @@ export const Project = (props) => {
       <h2>{props.projectName}</h2>
       <LanguageBadge language={props.primaryLanguage} />
       <p>{props.description}</p>
-      <ButtonPanel pagesLink={props.pagesLink} props={props.repoLink} />
+      <ButtonPanel pagesLink={props.pagesLink} repoLink={props.repoLink} />
     </div>
   );
 };
