@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import css from "./Footer.module.css";
 import FooterContactButtons from "./FooterContactButtons";
 import getCurrentYear from "../../utils/getCurrentYear";
