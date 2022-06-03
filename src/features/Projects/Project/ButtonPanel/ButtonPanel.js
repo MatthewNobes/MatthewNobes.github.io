@@ -1,5 +1,6 @@
 import Button from "react-bootstrap/Button";
 import css from "./ButtonPanel.module.css";
+import TryItButton from "./TryItButton";
 
 export const ButtonPanel = (props) => {
   const repoLink = props.repoLink;
@@ -15,12 +16,7 @@ export const ButtonPanel = (props) => {
       >
         View on GitHub
       </Button>
-      <Button
-        variant="outline-primary"
-        href={"https://matthewnobes.github.io/" + pagesLink}
-      >
-        Try it out!
-      </Button>
+      <TryItButton pagesLink={pagesLink} />
     </div>
   );
 };

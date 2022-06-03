@@ -22,7 +22,7 @@ export const ProjectsList = () => {
             primaryLanguage={project.language}
             description={project.description}
             repoLink={project.html_url}
-            pagesLink={project.name}
+            pagesLink={project.homepage}
           />
         );
       })}
