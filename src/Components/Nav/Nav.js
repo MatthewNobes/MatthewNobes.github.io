@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Nav = () => (
+export const Nav = () => (
   <nav>
     <ul className="React-Router-Group">
       <li className="React-Router-Headlinks">
@@ -16,5 +16,3 @@ const Nav = () => (
     </ul>
   </nav>
 );
-
-export default Nav;
