@@ -1,7 +1,7 @@
 import LanguageBadge from "./LanguageBadge";
 import css from "./Project.module.css";
 import ButtonPanel from "./ButtonPanel";
-import { IssueCountBadge } from "./IssueCountBadge/IssueCountBadge";
+import IssueCountBadge from "./IssueCountBadge";
 
 export const Project = (props) => {
   return (
