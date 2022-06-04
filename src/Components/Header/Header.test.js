@@ -3,6 +3,6 @@ import { Header } from "./Header";
 
 test("the header has the name Matthew Nobes on it", () => {
   render(<Header />);
-  const linkElement = screen.getByText(/Matthew Nobes/i);
-  expect(linkElement).toBeInTheDocument();
+  const headerText = screen.getByText(/Matthew Nobes/i);
+  expect(headerText).toBeInTheDocument();
 });
