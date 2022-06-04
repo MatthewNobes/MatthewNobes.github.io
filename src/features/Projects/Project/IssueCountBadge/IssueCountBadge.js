@@ -3,6 +3,7 @@ import css from "./IssueCountBadge.module.css";
 
 export const IssueCountBadge = (props) => {
   const issueCount = props.issueCount;
+  const issuePageURL = props.repoLink + "/issues/";
 
   return (
     <OverlayTrigger
@@ -16,6 +17,9 @@ export const IssueCountBadge = (props) => {
           ref={ref}
           {...triggerHandler}
           bg="success"
+          onClick={() => window.open(issuePageURL, "_blank")}
+          href={issuePageURL}
+          target="_blank"
           className={css.IssueCountBadge}
         >
           {issueCount} Open Issues

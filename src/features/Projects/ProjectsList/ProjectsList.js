@@ -10,7 +10,7 @@ export const ProjectsList = () => {
   useEffect(() => {
     getProjects().then((result) => appendProjectList(result));
   }, [holder]);
-  console.log(projectsList);
+
   return (
     <>
       {projectsList.map((project) => {

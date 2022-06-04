@@ -8,7 +8,10 @@ export const Project = (props) => {
     <div key={props.id} className={css.Project}>
       <h2>{props.projectName}</h2>
       <LanguageBadge language={props.primaryLanguage} />
-      <IssueCountBadge issueCount={props.issueCount} />
+      <IssueCountBadge
+        issueCount={props.issueCount}
+        repoLink={props.repoLink}
+      />
       <p>{props.description}</p>
       <ButtonPanel pagesLink={props.pagesLink} repoLink={props.repoLink} />
     </div>
