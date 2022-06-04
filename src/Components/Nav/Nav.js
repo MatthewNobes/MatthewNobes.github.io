@@ -1,18 +1,13 @@
 import { Link } from "react-router-dom";
+import css from "./Nav.module.css";
 
 export const Nav = () => (
-  <nav>
-    <ul className="React-Router-Group">
-      <li className="React-Router-Headlinks">
-        <Link className="React-Router-Links" to="/">
-          About
-        </Link>
-      </li>
-      <li className="React-Router-Headlinks">
-        <Link className="React-Router-Links" to="/Projects">
-          Projects
-        </Link>
-      </li>
-    </ul>
+  <nav className={css.ReactRouterGroup}>
+    <Link className={css.ReactRouterLinks} to="/">
+      About
+    </Link>
+    <Link className={css.ReactRouterLinks} to="/Projects">
+      Projects
+    </Link>
   </nav>
 );
