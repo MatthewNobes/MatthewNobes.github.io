@@ -8,9 +8,7 @@ export const IssueCountBadge = (props) => {
   return (
     <OverlayTrigger
       placement="bottom"
-      overlay={
-        <Tooltip>This project has {issueCount} outstanding issues</Tooltip>
-      }
+      overlay={<Tooltip>Click to view issues</Tooltip>}
     >
       {({ ref, ...triggerHandler }) => (
         <Badge
