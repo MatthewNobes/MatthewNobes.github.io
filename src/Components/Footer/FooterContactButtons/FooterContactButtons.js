@@ -1,6 +1,11 @@
 import { Button } from "react-bootstrap";
 import css from "./FooterContactButtons.module.css";
-import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
+import {
+  AiFillLinkedin,
+  AiFillGithub,
+  AiOutlineMail,
+  AiOutlineTwitter,
+} from "react-icons/ai";
 
 const contactFormats = [
   {
@@ -12,6 +17,11 @@ const contactFormats = [
     name: "GitHub",
     symbol: <AiFillGithub />,
     urlLink: "https://github.com/MatthewNobes",
+  },
+  {
+    name: "Twitter",
+    symbol: <AiOutlineTwitter />,
+    urlLink: "https://twitter.com/NobesMatthew",
   },
   {
     name: "Email",
