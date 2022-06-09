@@ -1,5 +1,4 @@
 import "../../App.css";
-import ContactDetails from "./ContactDetails";
 import ProfileImage from "./ProfileImage";
 
 const Title = () => <h1 className="Main-Title">About Me</h1>;
@@ -51,6 +50,5 @@ export const Home = () => (
         provides links to where these can be viewed.
       </p>
     </div>
-    <ContactDetails />
   </div>
 );
