@@ -24,6 +24,7 @@ export const ProjectsList = () => {
             repoLink={project.html_url}
             pagesLink={project.homepage}
             issueCount={project.open_issues}
+            license={project.license}
           />
         );
       })}

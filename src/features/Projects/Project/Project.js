@@ -2,6 +2,7 @@ import LanguageBadge from "./LanguageBadge";
 import css from "./Project.module.css";
 import ButtonPanel from "./ButtonPanel";
 import IssueCountBadge from "./IssueCountBadge";
+import LicenseBadge from "./LicenseBadge";
 
 export const Project = (props) => {
   return (
@@ -12,6 +13,7 @@ export const Project = (props) => {
         issueCount={props.issueCount}
         repoLink={props.repoLink}
       />
+      <LicenseBadge license={props.license} />
       <p>{props.description}</p>
       <ButtonPanel pagesLink={props.pagesLink} repoLink={props.repoLink} />
     </div>
