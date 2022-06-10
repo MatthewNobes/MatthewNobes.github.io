@@ -7,7 +7,7 @@ export const LicenseBadge = (props) => {
     return (
       <OverlayTrigger
         placement="bottom"
-        overlay={<Tooltip>This project is under a {license} license</Tooltip>}
+        overlay={<Tooltip>This project is under a {license}.</Tooltip>}
       >
         {({ ref, ...triggerHandler }) => (
           <Badge
