@@ -1,27 +1,7 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-dd {
-  padding-left: 2.5vw;
-}
-
-li {
-  padding-bottom: 0.25em;
-  padding-top: 0.25em;
-}
-
 .App {
   text-align: center;
 }
 
-.SubHeading {
-  text-align: left;
-}
-
-/*Page styling */
 .Main-Content {
   margin: auto;
   max-width: 1400px;
@@ -29,49 +9,5 @@ li {
   padding-left: 2.5vw;
   padding-right: 2.5vw;
   padding-bottom: 7.5vh;
-}
-
-.Main-Title {
-  text-align: center;
-  font-size: calc(25px + 2vmin);
-}
-
-.Main-Paragraph {
   text-align: justify;
-  padding-top: 1vh;
-}
-
-.Main-List {
-  padding-left: 2.5vw;
-  text-align: justify;
-}
-
-.Sub-Title {
-  text-align: left;
-}
-
-.Standard-List {
-  margin-left: 2vw;
-}
-
-/* Project page specific styles */
-.Project-Title {
-  display: block;
-  text-align: left;
-}
-
-/* Profile image styling */
-.home-profileImage {
-  height: 40vh;
-  width: auto;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-bottom: 5vh;
-  display: inline;
-}
-
-@media screen and (min-width: 450px) {
-  .home-profileImage {
-    float: right;
-  }
 }

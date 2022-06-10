@@ -1,7 +1,7 @@
 import "../../App.css";
 import ProfileImage from "./ProfileImage";
 
-const Title = () => <h1 className="Main-Title">About Me</h1>;
+const Title = () => <h1 className="PageTitle">About Me</h1>;
 
 export const Home = () => (
   <div>

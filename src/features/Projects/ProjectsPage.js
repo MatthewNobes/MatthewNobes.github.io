@@ -1,7 +1,7 @@
 import "../../App.css";
 import ProjectsList from "./ProjectsList";
 
-const Title = () => <h1 className="Main-Title">Projects</h1>;
+const Title = () => <h1 className="PageTitle">Projects</h1>;
 
 const Introduction = () => (
   <div className="Main-Content">
@@ -10,7 +10,7 @@ const Introduction = () => (
       variety of coding projects. I have experience with a wide array of
       programming and markup languages including:
     </p>
-    <ul className="Main-List">
+    <ul>
       <li>C</li>
       <li>C#</li>
       <li>CSS</li>
