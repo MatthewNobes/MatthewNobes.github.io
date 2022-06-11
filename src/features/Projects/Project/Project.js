@@ -3,6 +3,7 @@ import css from "./Project.module.css";
 import ButtonPanel from "./ButtonPanel";
 import IssueCountBadge from "./IssueCountBadge";
 import LicenseBadge from "./LicenseBadge";
+import ProjectTopicsList from "./ProjectTopicsList";
 
 export const Project = (props) => {
   return (
@@ -14,7 +15,9 @@ export const Project = (props) => {
         repoLink={props.repoLink}
       />
       <LicenseBadge license={props.license} />
+
       <p>{props.description}</p>
+      <ProjectTopicsList topics={props.topics} />
       <ButtonPanel pagesLink={props.pagesLink} repoLink={props.repoLink} />
     </div>
   );

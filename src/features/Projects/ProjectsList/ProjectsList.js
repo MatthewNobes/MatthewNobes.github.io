@@ -25,6 +25,7 @@ export const ProjectsList = () => {
             pagesLink={project.homepage}
             issueCount={project.open_issues}
             license={project.license}
+            topics={project.topics}
           />
         );
       })}
