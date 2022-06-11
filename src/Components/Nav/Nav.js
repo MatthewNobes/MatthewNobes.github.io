@@ -9,5 +9,8 @@ export const Nav = () => (
     <Link className={css.ReactRouterLinks} to="/Projects">
       Projects
     </Link>
+    <Link className={css.ReactRouterLinks} to="/Resources">
+      Resources
+    </Link>
   </nav>
 );
