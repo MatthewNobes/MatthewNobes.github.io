@@ -4,7 +4,7 @@ import FooterContactButtons from "./FooterContactButtons";
 import getCurrentYear from "../../utils/getCurrentYear";
 
 export const Footer = () => (
-  <div className={css.Footer}>
+  <div className={css.Footer} id="footer">
     <Container className={css.FooterContainer}>
       <div className={css.FooterList}>
         <h4>Thank you for visiting!</h4>
