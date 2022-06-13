@@ -116,7 +116,13 @@
     "name": "Git",
     "description": "",
     "id": "git",
-    "children": []
+    "children": [
+      {
+        "name": "GitHub",
+        "description": "",
+        "children": []
+      }
+    ]
   },
   {
     "name": "C#",
