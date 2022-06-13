@@ -7,9 +7,13 @@ const ResourceCategoryContent = (props) => {
   if (childItems.length === 0) {
     return <p>No items in this category yet</p>;
   } else {
-    childItems.map((resource) => {
-      return <ResourceCard resource={resource} />;
-    });
+    return (
+      <>
+        {childItems.map((resource) => {
+          return <ResourceCard resource={resource} />;
+        })}
+      </>
+    );
   }
 };
 
