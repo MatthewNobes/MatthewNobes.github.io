@@ -12,8 +12,14 @@
           {
             "name": "CrackStation",
             "description": "Online hash cracking tool",
-            "id": "password-cracking",
+            "id": "crackstation",
             "normalURL": "https://crackstation.net/"
+          },
+          {
+            "name": "OPHCrack",
+            "description": "Ophcrack is a free Windows password cracker based on rainbow tables.",
+            "id": "ophcrack",
+            "normalURL": "https://ophcrack.sourceforge.io/"
           }
         ]
       },
@@ -43,22 +49,16 @@
         "id": "react",
         "children": [
           {
-            "name": "React Documentation",
-            "description": "React documentation/guide",
-            "id": "react-documentation",
-            "normalURL": "https://reactjs.org/docs/getting-started.html"
+            "name": "React-bootstrap Documentation",
+            "description": "The documentation page for React-bootstrap",
+            "id": "react-bootstrap-doc",
+            "normalURL": "https://react-bootstrap.github.io/getting-started/introduction/"
           },
           {
-            "name": "React Documentation",
-            "description": "React documentation/guide",
-            "id": "react-documentation",
-            "normalURL": "https://reactjs.org/docs/getting-started.html"
-          },
-          {
-            "name": "React Documentation",
-            "description": "React documentation/guide",
-            "id": "react-documentation",
-            "normalURL": "https://reactjs.org/docs/getting-started.html"
+            "name": "React Router Documentation",
+            "description": "The development documentation for react router version 5.",
+            "id": "react-router-documentation",
+            "normalURL": "https://v5.reactrouter.com/web/guides/quick-start"
           }
         ]
       },
@@ -91,5 +91,55 @@
         ]
       }
     ]
+  },
+  {
+    "name": "React",
+    "description": "",
+    "id": "react",
+    "children": [
+      {
+        "name": "React",
+        "description": "",
+        "id": "react",
+        "children": [
+          {
+            "name": "React Documentation",
+            "description": "React documentation/guide",
+            "id": "react-documentation",
+            "normalURL": "https://reactjs.org/docs/getting-started.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Git",
+    "description": "",
+    "id": "git",
+    "children": []
+  },
+  {
+    "name": "C#",
+    "description": "",
+    "id": "c-sharp",
+    "children": []
+  },
+  {
+    "name": "Styling & CSS",
+    "description": "",
+    "id": "styling",
+    "children": []
+  },
+  {
+    "name": "C",
+    "description": "",
+    "id": "git",
+    "children": []
+  },
+  {
+    "name": "General Software Development",
+    "description": "",
+    "id": "general-software-development",
+    "children": []
   }
 ]

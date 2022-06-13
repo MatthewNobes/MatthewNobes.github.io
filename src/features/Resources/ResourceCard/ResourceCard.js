@@ -1,12 +1,13 @@
 import css from "./ResourceCard.module.css";
 import { Button, ListGroup } from "react-bootstrap";
+import { getIDFromName } from "../getIDFromName/getIDFromName";
 
 export const ResourceCard = (props) => {
   const resourceName = props.resource.name;
   const resourceDescription = props.resource.description;
   const resourceURL = props.resource.normalURL;
   const resourceArchiveURL = "https://web.archive.org/web/*/" + resourceURL;
-  const resourceID = props.resource.id;
+  const resourceID = getIDFromName(props.resource.name);
 
   return (
     <ListGroup.Item id={resourceID}>
