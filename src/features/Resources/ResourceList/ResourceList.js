@@ -1,4 +1,4 @@
-import { Accordion } from "react-bootstrap";
+import { Accordion, ListGroup } from "react-bootstrap";
 import ResourceData from "../Resources.json";
 import ResourceCategory from "../ResourceCategory";
 
@@ -10,11 +10,15 @@ export const ResourceList = () => {
           <Accordion.Item eventKey={resourceGrandParentGroup.name}>
             <Accordion.Header>{resourceGrandParentGroup.name}</Accordion.Header>
             <Accordion.Body>
-              {resourceGrandParentGroup.children.map((resourceParentGroup) => {
-                return (
-                  <ResourceCategory resourceObject={resourceParentGroup} />
-                );
-              })}
+              <ListGroup>
+                {resourceGrandParentGroup.children.map(
+                  (resourceParentGroup) => {
+                    return (
+                      <ResourceCategory resourceObject={resourceParentGroup} />
+                    );
+                  }
+                )}
+              </ListGroup>
             </Accordion.Body>
           </Accordion.Item>
         );

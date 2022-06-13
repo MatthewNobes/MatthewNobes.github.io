@@ -47,6 +47,18 @@
             "description": "React documentation/guide",
             "id": "react-documentation",
             "normalURL": "https://reactjs.org/docs/getting-started.html"
+          },
+          {
+            "name": "React Documentation",
+            "description": "React documentation/guide",
+            "id": "react-documentation",
+            "normalURL": "https://reactjs.org/docs/getting-started.html"
+          },
+          {
+            "name": "React Documentation",
+            "description": "React documentation/guide",
+            "id": "react-documentation",
+            "normalURL": "https://reactjs.org/docs/getting-started.html"
           }
         ]
       },
@@ -55,6 +67,20 @@
         "description": "",
         "id": "three-js",
         "children": [
+          {
+            "name": "Three JS Documentation",
+            "description": "Documentation for Three JS",
+            "id": "three-js-documentation",
+            "keywords": ["threejs", "3d", "webgl"],
+            "normalURL": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
+          },
+          {
+            "name": "Three JS Documentation",
+            "description": "Documentation for Three JS",
+            "id": "three-js-documentation",
+            "keywords": ["threejs", "3d", "webgl"],
+            "normalURL": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
+          },
           {
             "name": "Three JS Documentation",
             "description": "Documentation for Three JS",
