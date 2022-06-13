@@ -1,6 +1,7 @@
 .ReactRouterGroup {
   width: 100%;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   background-color: #282c34;
 }
@@ -17,4 +18,10 @@
 .ReactRouterLinks:hover {
   background-color: #111;
   color: white;
+}
+
+@media screen and (max-width: 450px) {
+  .ReactRouterGroup {
+    flex-direction: column;
+  }
 }
