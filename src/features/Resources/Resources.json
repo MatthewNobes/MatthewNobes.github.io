@@ -59,6 +59,7 @@
             "name": "Three JS Documentation",
             "description": "Documentation for Three JS",
             "id": "three-js-documentation",
+            "keywords": ["threejs", "3d", "webgl"],
             "normalURL": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
           }
         ]
