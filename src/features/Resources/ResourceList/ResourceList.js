@@ -1,37 +1,6 @@
 import { Accordion } from "react-bootstrap";
 import ResourceData from "../Resources.json";
-
-const Resource = (props) => {
-  const resourceName = props.resource.name;
-  const resourceDescription = props.resource.description;
-  const resourceURL = props.resource.normalURL;
-
-  return (
-    <div>
-      <h3>{resourceName}</h3>
-      <div>
-        <p>{resourceDescription}</p>
-        <a href={resourceURL} target="_blank" rel="noreferrer">
-          Link
-        </a>
-      </div>
-    </div>
-  );
-};
-
-const ResourceParentGroup = (props) => {
-  const header = props.resourceObject.name;
-  const childItems = props.resourceObject.children;
-
-  return (
-    <div>
-      <h2>{header}</h2>
-      {childItems.map((resource) => {
-        return <Resource resource={resource} />;
-      })}
-    </div>
-  );
-};
+import ResourceCategory from "../ResourceCategory";
 
 export const ResourceList = () => {
   return (
@@ -43,7 +12,7 @@ export const ResourceList = () => {
             <Accordion.Body>
               {resourceGrandParentGroup.children.map((resourceParentGroup) => {
                 return (
-                  <ResourceParentGroup resourceObject={resourceParentGroup} />
+                  <ResourceCategory resourceObject={resourceParentGroup} />
                 );
               })}
             </Accordion.Body>
