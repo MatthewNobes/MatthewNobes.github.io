@@ -1,5 +1,6 @@
 import { getIDFromName } from "../getIDFromName/getIDFromName";
 import ResourceCard from "../ResourceCard";
+import css from "./ResourceCategory.module.css";
 
 const ResourceCategoryContent = (props) => {
   const childItems = props.childItems;
@@ -24,7 +25,7 @@ export const ResourceCategory = (props) => {
 
   return (
     <div id={categoryID}>
-      <h2>{header}</h2>
+      <h2 className={css.CategoryTitle}>{header}</h2>
       <ResourceCategoryContent childItems={childItems} />
     </div>
   );
