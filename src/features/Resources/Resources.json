@@ -2,37 +2,57 @@
   {
     "name": "Cyber tools",
     "description": "",
-    "id": "cyber-tools",
     "children": [
       {
         "name": "Password Cracking",
         "description": "",
-        "id": "password-cracking",
         "children": [
           {
             "name": "CrackStation",
             "description": "Online hash cracking tool",
-            "id": "crackstation",
             "normalURL": "https://crackstation.net/"
           },
           {
             "name": "OPHCrack",
             "description": "Ophcrack is a free Windows password cracker based on rainbow tables.",
-            "id": "ophcrack",
             "normalURL": "https://ophcrack.sourceforge.io/"
+          }
+        ]
+      },
+      {
+        "name": "Social Engineering",
+        "description": "",
+        "children": [
+          {
+            "name": "Discover Profile",
+            "description": "Social media profile searcher.",
+            "normalURL": "https://discoverprofile.com/"
+          },
+          {
+            "name": "OSINT Framework",
+            "description": "Open-source intelligence (OSINT) is the collection and analysis of data gathered from open sources (overt and publicly available sources) to produce actionable intelligence.",
+            "normalURL": "https://osintframework.com/"
+          },
+          {
+            "name": "Google Hacking DB",
+            "description": "The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers.",
+            "normalURL": "https://www.exploit-db.com/google-hacking-database"
           }
         ]
       },
       {
         "name": "Cryptography",
         "description": "",
-        "id": "cryptography",
         "children": [
           {
             "name": "dCode",
             "description": "Large cryptography cracking site",
-            "id": "dcode",
             "normalURL": "https://www.dcode.fr/en"
+          },
+          {
+            "name": "UOP - Crypto",
+            "description": "The University of Portsmouth, School of Computing, cryptography tool collection.",
+            "normalURL": "https://crypto.soc.port.ac.uk/crypto/cryptoweb/"
           }
         ]
       }
@@ -41,51 +61,35 @@
   {
     "name": "JavaScript",
     "description": "",
-    "id": "javascript",
     "children": [
       {
-        "name": "React",
+        "name": "JavaScript (vanilla)",
         "description": "",
-        "id": "react",
         "children": [
           {
-            "name": "React-bootstrap Documentation",
-            "description": "The documentation page for React-bootstrap",
-            "id": "react-bootstrap-doc",
-            "normalURL": "https://react-bootstrap.github.io/getting-started/introduction/"
-          },
-          {
-            "name": "React Router Documentation",
-            "description": "The development documentation for react router version 5.",
-            "id": "react-router-documentation",
-            "normalURL": "https://v5.reactrouter.com/web/guides/quick-start"
+            "name": "Environment Variables Guide",
+            "description": "Guide on using environment variables in JavaScript.",
+            "normalURL": "https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html"
           }
         ]
       },
       {
         "name": "Three JS",
         "description": "",
-        "id": "three-js",
         "children": [
           {
             "name": "Three JS Documentation",
             "description": "Documentation for Three JS",
-            "id": "three-js-documentation",
-            "keywords": ["threejs", "3d", "webgl"],
             "normalURL": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
           },
           {
             "name": "Three JS Documentation",
             "description": "Documentation for Three JS",
-            "id": "three-js-documentation",
-            "keywords": ["threejs", "3d", "webgl"],
             "normalURL": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
           },
           {
             "name": "Three JS Documentation",
             "description": "Documentation for Three JS",
-            "id": "three-js-documentation",
-            "keywords": ["threejs", "3d", "webgl"],
             "normalURL": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
           }
         ]
@@ -95,18 +99,47 @@
   {
     "name": "React",
     "description": "",
-    "id": "react",
     "children": [
       {
-        "name": "React",
+        "name": "React (vanilla)",
         "description": "",
-        "id": "react",
         "children": [
           {
             "name": "React Documentation",
             "description": "React documentation/guide",
-            "id": "react-documentation",
             "normalURL": "https://reactjs.org/docs/getting-started.html"
+          }
+        ]
+      },
+      {
+        "name": "React Router",
+        "description": "A routing tool that takes advantage of React's reactive nature",
+        "children": [
+          {
+            "name": "React Router Documentation",
+            "description": "The development documentation for react router version 5.",
+            "normalURL": "https://v5.reactrouter.com/web/guides/quick-start"
+          },
+          {
+            "name": "React Router V6 migration",
+            "description": "A migration guide for converting from React Router v5 to v6.",
+            "normalURL": "https://blog.logrocket.com/migrating-react-router-v6-complete-guide/"
+          }
+        ]
+      },
+      {
+        "name": "React-bootstrap",
+        "description": "A styling designed as an implementation of bootstrap for React.",
+        "children": [
+          {
+            "name": "React-bootstrap Documentation",
+            "description": "The documentation page for React-bootstrap",
+            "normalURL": "https://react-bootstrap.github.io/getting-started/introduction/"
+          },
+          {
+            "name": "React-bootstrap custom theme",
+            "description": "Guide for setting up a custom theme in react-bootstrap",
+            "normalURL": "https://create-react-app.dev/docs/adding-bootstrap/#using-a-custom-theme"
           }
         ]
       }
@@ -115,37 +148,60 @@
   {
     "name": "Git",
     "description": "",
-    "id": "git",
     "children": [
       {
         "name": "GitHub",
         "description": "",
-        "children": []
+        "children": [
+          {
+            "name": "GitHub",
+            "description": "The GitHub homepage.",
+            "normalURL": "https://github.com/"
+          },
+          {
+            "name": "MatthewNobes - GitHub",
+            "description": "My personal GitHub profile.",
+            "normalURL": "https://github.com/MatthewNobes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TypeScript",
+    "description": "",
+    "children": [
+      {
+        "name": "TypeScript (vanilla)",
+        "description": "",
+        "children": [
+          {
+            "name": "TypeScript Documentation",
+            "description": "The documentation guide for TypeScript.",
+            "normalURL": "https://www.typescriptlang.org/"
+          }
+        ]
       }
     ]
   },
   {
     "name": "C#",
     "description": "",
-    "id": "c-sharp",
     "children": []
   },
   {
     "name": "Styling & CSS",
     "description": "",
-    "id": "styling",
     "children": []
   },
   {
     "name": "C",
     "description": "",
-    "id": "git",
     "children": []
   },
   {
     "name": "General Software Development",
     "description": "",
-    "id": "general-software-development",
     "children": []
   }
 ]
