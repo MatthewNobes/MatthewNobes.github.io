@@ -7,7 +7,9 @@ export const ProjectFilters = (props) => {
 
   return (
     <Form.Group className={css.OptionPane}>
-      <Form.Label className={css.OptionLabel}>Project language</Form.Label>
+      <Form.Label className={css.OptionLabel} htmlFor="languageOption">
+        Project language
+      </Form.Label>
       <Form.Select
         id="languageOption"
         value={filterValues}
