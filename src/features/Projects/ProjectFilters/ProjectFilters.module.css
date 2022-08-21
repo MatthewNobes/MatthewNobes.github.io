@@ -1,6 +1,6 @@
 .OptionPane {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-wrap: wrap;
   margin-bottom: 25px;
 }
@@ -12,5 +12,5 @@
 
 .OptionBox {
   width: 95%;
-  max-width: 400px;
+  max-width: 150px;
 }
