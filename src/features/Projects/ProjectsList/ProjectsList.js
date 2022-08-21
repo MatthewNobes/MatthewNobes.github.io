@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { projectsData } from "../../../data/projectData";
 import Project from "../Project";
 import getProjects from "../getProjects";
+import ProjectFilters from "../ProjectFilters";
 
 export const ProjectsList = () => {
   const holder = true;
@@ -13,6 +14,7 @@ export const ProjectsList = () => {
 
   return (
     <>
+      <ProjectFilters />
       {projectsList.map((project) => {
         return (
           <Project

@@ -1,0 +1,16 @@
+.OptionPane {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.OptionLabel {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.OptionBox {
+  width: 95%;
+  max-width: 400px;
+}
