@@ -19,6 +19,14 @@ export const ProjectsList = () => {
     });
   }
 
+  let languageOptions = [];
+  projectsList.forEach((project) => {
+    if (!languageOptions.includes(project.language)) {
+      languageOptions.push(project.language);
+    }
+  });
+  languageOptions.sort();
+
   useEffect(() => {
     getProjects().then((result) => appendProjectList(result));
   }, [holder]);
@@ -26,7 +34,7 @@ export const ProjectsList = () => {
   return (
     <>
       <ProjectFilters
-        languageOptions={["", "JavaScript", "C#", "Python"]}
+        languageOptions={languageOptions}
         filterValues={filterValue}
         setFilterValues={setFilterValues}
       />
