@@ -7,6 +7,17 @@ import ProjectFilters from "../ProjectFilters";
 export const ProjectsList = () => {
   const holder = true;
   const [projectsList, appendProjectList] = useState([projectsData]);
+  const [filterValue, setFilterValues] = useState("");
+
+  let filteredProjects = projectsList;
+  if (filterValue !== "") {
+    filteredProjects = [];
+    projectsList.forEach((project) => {
+      if (project.language === filterValue) {
+        filteredProjects.push(project);
+      }
+    });
+  }
 
   useEffect(() => {
     getProjects().then((result) => appendProjectList(result));
@@ -14,8 +25,12 @@ export const ProjectsList = () => {
 
   return (
     <>
-      <ProjectFilters />
-      {projectsList.map((project) => {
+      <ProjectFilters
+        languageOptions={["", "JavaScript", "C#", "Python"]}
+        filterValues={filterValue}
+        setFilterValues={setFilterValues}
+      />
+      {filteredProjects.map((project) => {
         return (
           <Project
             key={project.id}
