@@ -6,23 +6,26 @@ export const ProjectFilters = (props) => {
   const filterValues = props.filterValues;
 
   return (
-    <Form.Group className={css.OptionPane}>
-      <Form.Label className={css.OptionLabel} htmlFor="languageOption">
-        Project language
-      </Form.Label>
-      <Form.Select
-        id="languageOption"
-        value={filterValues}
-        name="languageOption"
-        className={css.OptionBox}
-        onChange={(e) => {
-          props.setFilterValues(e.target.value);
-        }}
-      >
-        {languageOptions.map((option) => {
-          return <option id={option}>{option}</option>;
-        })}
-      </Form.Select>
-    </Form.Group>
+    <div className={css.ListHeader}>
+      <Form.Group className={css.OptionPane}>
+        <Form.Label className={css.OptionLabel} htmlFor="languageOption">
+          Project language
+        </Form.Label>
+        <div className={css.OptionBox}>
+          <Form.Select
+            id="languageOption"
+            value={filterValues}
+            name="languageOption"
+            onChange={(e) => {
+              props.setFilterValues(e.target.value);
+            }}
+          >
+            {languageOptions.map((option) => {
+              return <option id={option}>{option}</option>;
+            })}
+          </Form.Select>
+        </div>
+      </Form.Group>
+    </div>
   );
 };

@@ -1,16 +1,25 @@
-.OptionPane {
+.ListHeader {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
+}
+
+.OptionPane {
+  max-width: 400px;
+  width: 95vw;
+  display: flex;
   margin-bottom: 25px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .OptionLabel {
   text-align: center;
-  margin-right: 10px;
+  width: 35%;
+  min-width: 125px;
 }
 
 .OptionBox {
-  width: 95%;
-  max-width: 150px;
+  width: 65%;
+  min-width: 120px;
 }
