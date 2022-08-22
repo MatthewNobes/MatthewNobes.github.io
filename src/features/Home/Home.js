@@ -121,6 +121,13 @@ export const Home = () => (
           rel="noreferrer"
         >
           here
+        </a>{" "}
+        and for more information on how it works, view the wiki{" "}
+        <a
+          href="https://github.com/MatthewNobes/MatthewNobes.github.io/wiki"
+          rel="noreferrer"
+        >
+          here
         </a>
         . It is being hosted using{" "}
         <a href="https://pages.github.com/" rel="noreferrer">
