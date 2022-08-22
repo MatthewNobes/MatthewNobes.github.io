@@ -6,9 +6,9 @@ const Title = () => <h1 className="PageTitle">Projects</h1>;
 const Introduction = () => (
   <div className="Main-Content">
     <p className="Main-Paragraph">
-      I have been programming since 2013 and in this time I've produced a
-      variety of coding projects. I have experience with a wide array of
-      programming and markup languages including:
+      I have been programming for over a decade now and in this time I've
+      produced a variety of coding projects while gaining experience with a wide
+      array of programming and markup languages including:
     </p>
     <ul>
       <li>C</li>
@@ -21,18 +21,21 @@ const Introduction = () => (
       <li>SQL</li>
     </ul>
     <p className="Main-Paragraph">
-      Many examples of my personal projects can be found on my GitHub. I have
-      not to included all the projects I have made. This is due to the fact that
-      some of these contain sensitive information I do not wish to make public.
-      Some of these projects are hacking tools I have developed that if used
-      with malicious intent, could cause harm to others. I have therefore made
-      some repositories private, in an effort to protect others.
-    </p>
-    <p className="Main-Paragraph">
-      The projects listed below have been pulled directly from GitHub, using the
-      GitHub REST API. This list includes all of my public repositories. Many of
-      the web applications I have created are hosted using GitHub Pages; the try
-      it button will open these applications for you have a go yourself.
+      Many examples of my public projects can be found on my GitHub and seen on
+      this page. The projects listed below have been pulled directly from
+      GitHub, using the GitHub REST API. This list includes all of my public
+      repositories. Many of the web applications I have created are hosted using
+      GitHub Pages; the try it button will open these applications for you have
+      a go yourself. For a full explanation of how this page works check out the
+      wiki page{" "}
+      <a
+        href="https://github.com/MatthewNobes/MatthewNobes.github.io/wiki/Projects"
+        rel="noreferrer"
+        aria-label="View the Projects wiki page for a full explanation of the API system"
+      >
+        here
+      </a>
+      .
     </p>
   </div>
 );
