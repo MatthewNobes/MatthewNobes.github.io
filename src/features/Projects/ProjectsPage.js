@@ -1,4 +1,5 @@
 import "../../App.css";
+import LanguageCardPane from "./LanguageCardPane";
 import ProjectsList from "./ProjectsList";
 
 const Title = () => <h1 className="PageTitle">Projects</h1>;
@@ -10,16 +11,7 @@ const Introduction = () => (
       produced a variety of coding projects while gaining experience with a wide
       array of programming and markup languages including:
     </p>
-    <ul>
-      <li>C</li>
-      <li>C#</li>
-      <li>CSS</li>
-      <li>HTML</li>
-      <li>Java</li>
-      <li>JavaScript - including React and jQuery</li>
-      <li>Python</li>
-      <li>SQL</li>
-    </ul>
+    <LanguageCardPane />
     <p className="Main-Paragraph">
       Many examples of my public projects can be found on my GitHub and seen on
       this page. The projects listed below have been pulled directly from

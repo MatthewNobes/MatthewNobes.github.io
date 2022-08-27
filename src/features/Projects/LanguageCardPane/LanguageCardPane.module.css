@@ -1,0 +1,7 @@
+.LanguageCardPane {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: 1em;
+}
