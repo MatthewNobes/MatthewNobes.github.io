@@ -4,6 +4,17 @@
     "description": "",
     "children": [
       {
+        "name": "Forensics Tools",
+        "description": "",
+        "children": [
+          {
+            "name": "Hexed.it",
+            "description": "Online hex edit tool",
+            "normalURL": "https://hexed.it/"
+          }
+        ]
+      },
+      {
         "name": "Password Cracking",
         "description": "",
         "children": [
@@ -16,6 +27,22 @@
             "name": "OPHCrack",
             "description": "Ophcrack is a free Windows password cracker based on rainbow tables.",
             "normalURL": "https://ophcrack.sourceforge.io/"
+          }
+        ]
+      },
+      {
+        "name": "Password Generation",
+        "description": "Tools for generating passwords",
+        "children": [
+          {
+            "name": "Personal Password Generator",
+            "description": "My personal password generator",
+            "normalURL": "https://matthewnobes.github.io/Password-Generator/"
+          },
+          {
+            "name": "LastPass Password Generator",
+            "description": "The password generator created by LastPass",
+            "normalURL": "https://www.lastpass.com/features/password-generator-a#generatorTool"
           }
         ]
       },
@@ -37,6 +64,46 @@
             "name": "Google Hacking DB",
             "description": "The GHDB is an index of search queries (we call them dorks) used to find publicly available information, intended for pentesters and security researchers.",
             "normalURL": "https://www.exploit-db.com/google-hacking-database"
+          },
+          {
+            "name": "DVLA Lookup",
+            "description": "UK car reg lookup",
+            "normalURL": "https://www.gov.uk/get-vehicle-information-from-dvla"
+          },
+          {
+            "name": "Car Insurance Checker",
+            "description": "Checkers for if cars are insured",
+            "normalURL": "https://ownvehicle.askmid.com/"
+          },
+          {
+            "name": "IP Address grabber",
+            "description": "Grabs the IP of whoever opens the link",
+            "normalURL": "https://grabify.link/"
+          },
+          {
+            "name": "Who Is Lookup",
+            "description": "Domain information lookup tool",
+            "normalURL": "https://whois.domaintools.com/"
+          },
+          {
+            "name": "House lookup",
+            "description": "Lookup for houses and their prices",
+            "normalURL": "https://www.rightmove.co.uk/house-prices.html"
+          },
+          {
+            "name": "WhoIs DB",
+            "description": "RIPE lookup tool",
+            "normalURL": "https://apps.db.ripe.net/db-web-ui/query"
+          },
+          {
+            "name": "IOT lookup",
+            "description": "IOT search engine",
+            "normalURL": "https://www.shodan.io/"
+          },
+          {
+            "name": "National Archive",
+            "description": "UK National Archive",
+            "normalURL": "https://www.nationalarchives.gov.uk/"
           }
         ]
       },
@@ -53,6 +120,37 @@
             "name": "UOP - Crypto",
             "description": "The University of Portsmouth, School of Computing, cryptography tool collection.",
             "normalURL": "https://crypto.soc.port.ac.uk/crypto/cryptoweb/"
+          },
+          {
+            "name": "Crypto Club",
+            "description": "Cipher Tools and challenges",
+            "normalURL": "https://cryptoclub.org/"
+          }
+        ]
+      },
+      {
+        "name": "Exploits & Vulnerabilities",
+        "description": "",
+        "children": [
+          {
+            "name": "Exploit DB",
+            "description": "Large database of known vulnerabilities",
+            "normalURL": "https://www.exploit-db.com/"
+          },
+          {
+            "name": "CVE List",
+            "description": "Common Vulnerabilities and Exposures lookup",
+            "normalURL": "https://cve.mitre.org/cve/search_cve_list.html"
+          },
+          {
+            "name": "CWE Lookup",
+            "description": "Common Weakness Enumeration lookup tool",
+            "normalURL": "https://cwe.mitre.org/data/index.html"
+          },
+          {
+            "name": "NVD",
+            "description": "National Vulnerability database with CVSS calculator",
+            "normalURL": "https://nvd.nist.gov/vuln-metrics/cvss"
           }
         ]
       }
@@ -64,12 +162,28 @@
     "children": [
       {
         "name": "JavaScript (vanilla)",
-        "description": "",
+        "description": "Basic JavaScript",
         "children": [
           {
             "name": "Environment Variables Guide",
             "description": "Guide on using environment variables in JavaScript.",
             "normalURL": "https://www.twilio.com/blog/working-with-environment-variables-in-node-js-html"
+          },
+          {
+            "name": "W3 Schools JS guide",
+            "description": "A large collection of JavaScript guides and tutorials.",
+            "normalURL": "https://www.w3schools.com/js/"
+          }
+        ]
+      },
+      {
+        "name": "Automated Testing",
+        "description": "Links for automated testing within JavaScript",
+        "children": [
+          {
+            "name": "Jest Documentation",
+            "description": "Documentation for Jest",
+            "normalURL": "hhttps://jestjs.io/"
           }
         ]
       },
@@ -83,14 +197,14 @@
             "normalURL": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
           },
           {
-            "name": "Three JS Documentation",
-            "description": "Documentation for Three JS",
-            "normalURL": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
+            "name": "GLTF Loading with Three",
+            "description": "Loading GLTF models with Three",
+            "normalURL": "https://threejs.org/docs/#examples/en/loaders/GLTFLoader"
           },
           {
-            "name": "Three JS Documentation",
-            "description": "Documentation for Three JS",
-            "normalURL": "https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene"
+            "name": "Three JS editor",
+            "description": "A model editor for Three JS",
+            "normalURL": "https://threejs.org/editor/"
           }
         ]
       }
@@ -192,7 +306,52 @@
   {
     "name": "Styling & CSS",
     "description": "",
-    "children": []
+    "children": [
+      {
+        "name": "CSS",
+        "description": "",
+        "children": [
+          {
+            "name": "CSS rounded corners",
+            "description": "Creating rounded corners using CSS",
+            "normalURL": "https://www.w3schools.com/css/css3_borders.asp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Docker",
+    "description": "",
+    "children": [
+      {
+        "name": "Dockerising",
+        "description": "Guides for Dockerising things",
+        "children": [
+          {
+            "name": "Dockerising a React App",
+            "description": "Containing a React App in a Docker image",
+            "normalURL": "https://jsramblings.com/dockerizing-a-react-app/"
+          }
+        ]
+      },
+      {
+        "name": "Docker itself",
+        "description": "Links for the Docker app and its usage",
+        "children": [
+          {
+            "name": "Docker Hub",
+            "description": "The Hub for Docker images",
+            "normalURL": "https://hub.docker.com/"
+          }
+        ]
+      },
+      {
+        "name": "Useful Docker images",
+        "description": "Docker images that I find useful",
+        "children": []
+      }
+    ]
   },
   {
     "name": "C",
