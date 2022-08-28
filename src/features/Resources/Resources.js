@@ -18,7 +18,11 @@ export const Resources = () => {
         <p>
           Each resource contains its normal link, as well as an archive link.
           This uses the{" "}
-          <a href="https://archive.org/web/" rel="noreferrer">
+          <a
+            href="https://archive.org/web/"
+            rel="noreferrer"
+            aria-label="Link to the Wayback machine archive"
+          >
             Wayback Machine
           </a>{" "}
           to show previously archived versions of this site. It has been
