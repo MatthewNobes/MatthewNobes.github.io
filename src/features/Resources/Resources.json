@@ -15,6 +15,17 @@
         ]
       },
       {
+        "name": "Hashing",
+        "description": "",
+        "children": [
+          {
+            "name": ".NET MD5",
+            "description": "Hashing library for .NET 4.8",
+            "normalURL": "https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.md5?redirectedfrom=MSDN&view=netframework-4.8"
+          }
+        ]
+      },
+      {
         "name": "Password Cracking",
         "description": "",
         "children": [
@@ -256,6 +267,38 @@
             "normalURL": "https://create-react-app.dev/docs/adding-bootstrap/#using-a-custom-theme"
           }
         ]
+      },
+      {
+        "name": "Material UI",
+        "description": "Material Ui documentation and guides",
+        "children": [
+          {
+            "name": "MUI Documentation",
+            "description": "The documentation pages for Material UI",
+            "normalURL": "https://mui.com/"
+          },
+          {
+            "name": "MUI Default Theme",
+            "description": "The default theme object for MUI",
+            "normalURL": "https://mui.com/material-ui/customization/default-theme/"
+          }
+        ]
+      },
+      {
+        "name": "Redux",
+        "description": "Guides for the Redux state management suite",
+        "children": [
+          {
+            "name": "Redux Toolkit Documentation",
+            "description": "The documentation page for Redux Toolkit",
+            "normalURL": "https://redux-toolkit.js.org/"
+          },
+          {
+            "name": "Redux Documentation",
+            "description": "The documentation page for Redux",
+            "normalURL": "https://redux.js.org/"
+          }
+        ]
       }
     ]
   },
@@ -343,6 +386,11 @@
             "name": "Docker Hub",
             "description": "The Hub for Docker images",
             "normalURL": "https://hub.docker.com/"
+          },
+          {
+            "name": "Docker Cheat Sheet",
+            "description": "The ultimate Docker cheat sheet",
+            "normalURL": "https://dockerlabs.collabnix.com/docker/cheatsheet/"
           }
         ]
       },
@@ -356,11 +404,74 @@
   {
     "name": "C",
     "description": "",
-    "children": []
+    "children": [
+      {
+        "name": "C Guides",
+        "description": "Guides for C things",
+        "children": [
+          {
+            "name": "C Tutorial",
+            "description": "W3 Schools C tutorial",
+            "normalURL": "https://www.w3schools.com/c/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Python",
+    "description": "Useful Python guides and resources",
+    "children": [
+      {
+        "name": "Python Guides",
+        "description": "Guides for C things",
+        "children": [
+          {
+            "name": "Python package structure",
+            "description": "Explanation of packages and imports in Python",
+            "normalURL": "https://dev.to/codemouse92/dead-simple-python-project-structure-and-imports-38c6"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "General Software Development",
     "description": "",
-    "children": []
+    "children": [
+      {
+        "name": "HTML",
+        "description": "Guides for C things",
+        "children": [
+          {
+            "name": "Favicon Generator",
+            "description": "Tool for generating a Favicon",
+            "normalURL": "https://www.favicon-generator.org/"
+          }
+        ]
+      },
+      {
+        "name": "Demo Resources",
+        "description": "Resources for demonstrations etc.",
+        "children": [
+          {
+            "name": "Screenshot generator",
+            "description": "Tool for generating decent screenshots",
+            "normalURL": "https://pika.style/"
+          }
+        ]
+      },
+      {
+        "name": "CQL Clinical Quality Language",
+        "description": "Resources for CQL",
+        "children": [
+          {
+            "name": "Authors Guide",
+            "description": "Creators documentation",
+            "normalURL": "https://cql.hl7.org/02-authorsguide.html"
+          }
+        ]
+      }
+    ]
   }
 ]
