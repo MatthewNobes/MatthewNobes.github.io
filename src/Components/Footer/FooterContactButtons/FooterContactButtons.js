@@ -1,51 +1,51 @@
 import { Button } from "react-bootstrap";
 import css from "./FooterContactButtons.module.css";
 import {
-  AiFillLinkedin,
-  AiFillGithub,
-  AiOutlineMail,
-  AiOutlineTwitter,
+	AiFillLinkedin,
+	AiFillGithub,
+	AiOutlineMail,
+	AiOutlineTwitter,
 } from "react-icons/ai";
 
 const contactFormats = [
-  {
-    name: "LinkedIn",
-    symbol: <AiFillLinkedin />,
-    urlLink: "https://www.linkedin.com/in/matthew-nobes-10b834156/",
-  },
-  {
-    name: "GitHub",
-    symbol: <AiFillGithub />,
-    urlLink: "https://github.com/MatthewNobes",
-  },
-  {
-    name: "Twitter",
-    symbol: <AiOutlineTwitter />,
-    urlLink: "https://twitter.com/NobesMatthew",
-  },
-  {
-    name: "Email",
-    symbol: <AiOutlineMail />,
-    urlLink: "mailto:mattnobes.contact@gmail.com",
-  },
+	{
+		name: "LinkedIn",
+		symbol: <AiFillLinkedin />,
+		urlLink: "https://www.linkedin.com/in/matthew-nobes-10b834156/",
+	},
+	{
+		name: "GitHub",
+		symbol: <AiFillGithub />,
+		urlLink: "https://github.com/MatthewNobes",
+	},
+	{
+		name: "Twitter",
+		symbol: <AiOutlineTwitter />,
+		urlLink: "https://twitter.com/NobesMatthew",
+	},
+	{
+		name: "Email",
+		symbol: <AiOutlineMail />,
+		urlLink: "mailto:mattnobes.contact@gmail.com",
+	},
 ];
 
 export const FooterContactButtons = () => {
-  return (
-    <div className={css.ButtonBlock}>
-      {contactFormats.map((contactForm) => {
-        return (
-          <Button
-            key={contactForm.name}
-            variant="secondary"
-            className={css.ContactButton}
-            href={contactForm.urlLink}
-            target="_blank"
-          >
-            {contactForm.symbol} {contactForm.name}
-          </Button>
-        );
-      })}
-    </div>
-  );
+	return (
+		<div className={css.ButtonBlock}>
+			{contactFormats.map((contactForm) => {
+				return (
+					<Button
+						key={contactForm.name}
+						variant="secondary"
+						className={css.ContactButton}
+						href={contactForm.urlLink}
+						target="_blank"
+					>
+						{contactForm.symbol} {contactForm.name}
+					</Button>
+				);
+			})}
+		</div>
+	);
 };
