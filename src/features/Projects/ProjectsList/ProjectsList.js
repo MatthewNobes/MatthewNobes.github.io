@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import { projectsData } from "../../../Data/projectData";
+// import { projectsData } from "../../../Data/projectData";
 import Project from "../Project";
 import getProjects from "../getProjects";
 import ProjectFilters from "../ProjectFilters";
 
 export const ProjectsList = () => {
   const holder = true;
-  const [projectsList, appendProjectList] = useState([projectsData]);
+  const [projectsList, appendProjectList] = useState([]);
   const [filterValue, setFilterValues] = useState("");
 
   let filteredProjects = projectsList;

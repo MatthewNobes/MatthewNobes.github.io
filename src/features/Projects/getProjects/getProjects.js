@@ -1,4 +1,4 @@
-import ghAPIGet from "../../../Data/ghAPIGet";
+import ghAPIGet from "../../../data/ghAPIGet";
 
 export const getProjects = () => {
   return ghAPIGet(
