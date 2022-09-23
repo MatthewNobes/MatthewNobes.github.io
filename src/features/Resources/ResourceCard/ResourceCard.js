@@ -27,7 +27,7 @@ export const ResourceCard = (props) => {
 						target="_blank"
 						rel="noreferrer"
 					>
-            Link
+						Link
 					</Button>
 					<Button
 						className={css.LinkButtons}
@@ -36,7 +36,7 @@ export const ResourceCard = (props) => {
 						target="_blank"
 						rel="noreferrer"
 					>
-            Archive Link
+						Archive Link
 					</Button>
 				</div>
 			</div>

@@ -5,7 +5,7 @@ export const TryItButton = (props) => {
 	if (pagesLink) {
 		return (
 			<Button variant="outline-primary" href={pagesLink}>
-        Try it out!
+				Try it out!
 			</Button>
 		);
 	}

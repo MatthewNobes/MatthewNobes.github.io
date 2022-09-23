@@ -1,11 +1,11 @@
 #git:hover {
-  background-color: #6e5494;
+	background-color: #6e5494;
 }
 
 .ButtonPanel {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 10px;
+	flex-wrap: wrap;
 }

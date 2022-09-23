@@ -14,7 +14,7 @@ export const ButtonPanel = (props) => {
 				href={repoLink}
 				target="_blank"
 			>
-        View on GitHub
+				View on GitHub
 			</Button>
 			<TryItButton pagesLink={pagesLink} />
 		</div>

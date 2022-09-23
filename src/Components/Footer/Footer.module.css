@@ -1,21 +1,21 @@
 .Footer {
-  bottom: 0;
-  min-height: 10em;
-  background-color: #282c34;
-  color: white;
-  min-width: 100vw;
+	bottom: 0;
+	min-height: 10em;
+	background-color: #282c34;
+	color: white;
+	min-width: 100vw;
 }
 
 .FooterContainer {
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .FooterList {
-  padding-left: 10px;
-  padding-right: 10px;
-  min-width: 300px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 300px;
 }

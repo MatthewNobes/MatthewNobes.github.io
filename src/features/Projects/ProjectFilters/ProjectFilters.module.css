@@ -1,25 +1,25 @@
 .ListHeader {
-  display: flex;
-  justify-content: flex-end;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .OptionPane {
-  max-width: 400px;
-  width: 95vw;
-  display: flex;
-  margin-bottom: 25px;
-  align-items: baseline;
-  flex-wrap: wrap;
-  justify-content: center;
+	max-width: 400px;
+	width: 95vw;
+	display: flex;
+	margin-bottom: 25px;
+	align-items: baseline;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .OptionLabel {
-  text-align: center;
-  width: 35%;
-  min-width: 125px;
+	text-align: center;
+	width: 35%;
+	min-width: 125px;
 }
 
 .OptionBox {
-  width: 65%;
-  min-width: 120px;
+	width: 65%;
+	min-width: 120px;
 }

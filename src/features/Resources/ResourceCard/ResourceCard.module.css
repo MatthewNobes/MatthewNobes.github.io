@@ -1,14 +1,14 @@
 .CardContent {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .ButtonPanel {
-  text-align: center;
+	text-align: center;
 }
 
 .LinkButtons {
-  margin-right: 5px;
+	margin-right: 5px;
 }

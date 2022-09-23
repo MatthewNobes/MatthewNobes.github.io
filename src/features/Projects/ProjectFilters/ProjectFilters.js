@@ -9,7 +9,7 @@ export const ProjectFilters = (props) => {
 		<div className={css.ListHeader}>
 			<Form.Group className={css.OptionPane}>
 				<Form.Label className={css.OptionLabel} htmlFor="languageOption">
-          Project language
+					Project language
 				</Form.Label>
 				<div className={css.OptionBox}>
 					<Form.Select

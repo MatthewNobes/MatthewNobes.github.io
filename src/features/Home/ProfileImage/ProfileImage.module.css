@@ -1,14 +1,14 @@
 .profileImage {
-  height: 40vh;
-  width: auto;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  padding-bottom: 5vh;
-  display: inline;
+	height: 40vh;
+	width: auto;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 5vh;
+	display: inline;
 }
 
 @media screen and (min-width: 450px) {
-  .profileImage {
-    float: right;
-  }
+	.profileImage {
+		float: right;
+	}
 }
