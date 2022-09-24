@@ -1,5 +1,6 @@
 import { Badge, Tooltip, OverlayTrigger } from "react-bootstrap";
 import css from "./IssueCountBadge.module.css";
+import PropTypes from "prop-types";
 
 export const IssueCountBadge = (props) => {
 	const issueCount = props.issueCount;
@@ -29,4 +30,9 @@ export const IssueCountBadge = (props) => {
 	} else {
 		return null;
 	}
+};
+
+IssueCountBadge.propTypes = {
+	issueCount: PropTypes.string.isRequired,
+	repoLink: PropTypes.string.isRequired,
 };

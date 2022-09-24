@@ -1,6 +1,7 @@
 import { getIDFromName } from "../getIDFromName/getIDFromName";
 import ResourceCard from "../ResourceCard";
 import css from "./ResourceCategory.module.css";
+import PropTypes from "prop-types";
 
 const ResourceCategoryContent = (props) => {
 	const childItems = props.childItems;
@@ -11,11 +12,15 @@ const ResourceCategoryContent = (props) => {
 		return (
 			<>
 				{childItems.map((resource) => {
-					return <ResourceCard resource={resource} />;
+					return <ResourceCard key={childItems.name} resource={resource} />;
 				})}
 			</>
 		);
 	}
+};
+
+ResourceCategoryContent.propTypes = {
+	childItems: PropTypes.array.isRequired,
 };
 
 export const ResourceCategory = (props) => {
@@ -29,4 +34,8 @@ export const ResourceCategory = (props) => {
 			<ResourceCategoryContent childItems={childItems} />
 		</div>
 	);
+};
+
+ResourceCategory.propTypes = {
+	resourceObject: PropTypes.array.isRequired,
 };

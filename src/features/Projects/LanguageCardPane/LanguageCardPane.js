@@ -24,7 +24,7 @@ export const LanguageCardPane = () => {
 	return (
 		<div data-testid="LanguageCardPane" className={css.LanguageCardPane}>
 			{sortedLanguages.map((language) => {
-				return <LanguageCard language={language} />;
+				return <LanguageCard key={language} language={language} />;
 			})}
 		</div>
 	);

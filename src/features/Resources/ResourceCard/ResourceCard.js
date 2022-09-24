@@ -1,6 +1,7 @@
 import css from "./ResourceCard.module.css";
 import { Button, ListGroup } from "react-bootstrap";
 import { getIDFromName } from "../getIDFromName/getIDFromName";
+import PropTypes from "prop-types";
 
 export const ResourceCard = (props) => {
 	const resourceName = props.resource.name;
@@ -42,4 +43,8 @@ export const ResourceCard = (props) => {
 			</div>
 		</ListGroup.Item>
 	);
+};
+
+ResourceCard.propTypes = {
+	resource: PropTypes.object.isRequired,
 };

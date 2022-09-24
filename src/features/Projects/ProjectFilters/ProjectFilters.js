@@ -1,5 +1,6 @@
 import { Form } from "react-bootstrap";
 import css from "./ProjectFilters.module.css";
+import PropTypes from "prop-types";
 
 export const ProjectFilters = (props) => {
 	const languageOptions = props.languageOptions;
@@ -21,11 +22,21 @@ export const ProjectFilters = (props) => {
 						}}
 					>
 						{languageOptions.map((option) => {
-							return <option id={option}>{option}</option>;
+							return (
+								<option id={option} key={option}>
+									{option}
+								</option>
+							);
 						})}
 					</Form.Select>
 				</div>
 			</Form.Group>
 		</div>
 	);
+};
+
+ProjectFilters.propTypes = {
+	setFilterValues: PropTypes.func.isRequired,
+	languageOptions: PropTypes.array.isRequired,
+	filterValues: PropTypes.string.isRequired,
 };

@@ -1,6 +1,7 @@
 import Button from "react-bootstrap/Button";
 import css from "./ButtonPanel.module.css";
 import TryItButton from "./TryItButton";
+import PropTypes from "prop-types";
 
 export const ButtonPanel = (props) => {
 	const repoLink = props.repoLink;
@@ -19,4 +20,9 @@ export const ButtonPanel = (props) => {
 			<TryItButton pagesLink={pagesLink} />
 		</div>
 	);
+};
+
+ButtonPanel.propTypes = {
+	repoLink: PropTypes.string.isRequired,
+	pagesLink: PropTypes.string.isRequired,
 };

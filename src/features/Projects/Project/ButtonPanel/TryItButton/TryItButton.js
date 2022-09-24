@@ -1,4 +1,5 @@
 import Button from "react-bootstrap/Button";
+import PropTypes from "prop-types";
 
 export const TryItButton = (props) => {
 	const pagesLink = props.pagesLink;
@@ -9,4 +10,8 @@ export const TryItButton = (props) => {
 			</Button>
 		);
 	}
+};
+
+TryItButton.propTypes = {
+	pagesLink: PropTypes.string.isRequired,
 };

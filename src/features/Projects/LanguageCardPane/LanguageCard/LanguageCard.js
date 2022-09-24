@@ -1,4 +1,5 @@
 import css from "./LanguageCard.module.css";
+import PropTypes from "prop-types";
 
 export const LanguageCard = (props) => {
 	const language = props.language;
@@ -8,4 +9,8 @@ export const LanguageCard = (props) => {
 			<h2>{language}</h2>
 		</div>
 	);
+};
+
+LanguageCard.propTypes = {
+	language: PropTypes.string.isRequired,
 };

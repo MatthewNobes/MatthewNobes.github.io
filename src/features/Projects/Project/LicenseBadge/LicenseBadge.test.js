@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import { render, screen } from "@testing-library/react";
 import { LicenseBadge } from "./LicenseBadge";
 

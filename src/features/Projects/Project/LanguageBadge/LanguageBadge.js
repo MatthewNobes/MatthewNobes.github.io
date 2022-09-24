@@ -1,4 +1,5 @@
 import { Badge, Tooltip, OverlayTrigger } from "react-bootstrap";
+import PropTypes from "prop-types";
 
 export const LanguageBadge = (props) => {
 	const language = props.language;
@@ -16,4 +17,8 @@ export const LanguageBadge = (props) => {
 			)}
 		</OverlayTrigger>
 	);
+};
+
+LanguageBadge.propTypes = {
+	language: PropTypes.string.isRequired,
 };

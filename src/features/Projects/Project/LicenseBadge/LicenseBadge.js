@@ -1,13 +1,14 @@
 import { Badge, Tooltip, OverlayTrigger } from "react-bootstrap";
 import css from "./LicenseBadge.module.css";
+import PropTypes from "prop-types";
 
 export const LicenseBadge = (props) => {
-	const license = props.license?.name;
-	if (license) {
+	const licenseName = props.license?.name;
+	if (licenseName) {
 		return (
 			<OverlayTrigger
 				placement="bottom"
-				overlay={<Tooltip>This project is under a {license}.</Tooltip>}
+				overlay={<Tooltip>This project is under a {licenseName}.</Tooltip>}
 			>
 				{({ ref, ...triggerHandler }) => (
 					<Badge
@@ -16,7 +17,7 @@ export const LicenseBadge = (props) => {
 						bg="info"
 						className={css.LicenseBadge}
 					>
-						{license}
+						{licenseName}
 					</Badge>
 				)}
 			</OverlayTrigger>
@@ -24,4 +25,8 @@ export const LicenseBadge = (props) => {
 	} else {
 		return null;
 	}
+};
+
+LicenseBadge.propTypes = {
+	license: PropTypes.object.isRequired,
 };
