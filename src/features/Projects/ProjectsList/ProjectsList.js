@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Project from "../Project";
-import getProjects from "../getProjects";
+import getProjects from "../../../utils/getProjects";
 import ProjectFilters from "../ProjectFilters";
 
 export const ProjectsList = () => {
