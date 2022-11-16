@@ -1,5 +1,7 @@
 # Matthew Nobes
 
+[![CI Workflow](https://github.com/MatthewNobes/MatthewNobes.github.io/actions/workflows/CIWorkflow.yml/badge.svg?branch=master)](https://github.com/MatthewNobes/MatthewNobes.github.io/actions/workflows/CIWorkflow.yml)
+
 This is my new personal website. I have decided to create this new version in
 React to provide a better user experience, and demonstrate my React skills. This
 site is in a constant cycle of development, where features are added and
