@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import css from "./Footer.module.css";
 import FooterContactButtons from "./FooterContactButtons";
-import getCurrentYear from "../../utils/getCurrentYear";
+import { getCurrentYear } from "../../utils";
 
 export const Footer = () => (
 	<div className={css.Footer} id="footer">
