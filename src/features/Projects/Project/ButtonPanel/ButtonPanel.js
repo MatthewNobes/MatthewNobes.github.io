@@ -2,10 +2,12 @@ import Button from "react-bootstrap/Button";
 import css from "./ButtonPanel.module.css";
 import TryItButton from "./TryItButton";
 import PropTypes from "prop-types";
+import { WikiButton } from "./WikiButton/WikiButton";
 
 export const ButtonPanel = (props) => {
 	const repoLink = props.repoLink;
 	const pagesLink = props.pagesLink;
+	const wikiLink = props.repoLink + "/wiki";
 
 	return (
 		<div className={css.ButtonPanel}>
@@ -18,6 +20,7 @@ export const ButtonPanel = (props) => {
 				View on GitHub
 			</Button>
 			<TryItButton pagesLink={pagesLink} />
+			<WikiButton wikiLink={wikiLink} />
 		</div>
 	);
 };
