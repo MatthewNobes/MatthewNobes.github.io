@@ -27,6 +27,12 @@
 		"lint": "eslint --fix --ext .js,.jsx .",
 		"prettier": "prettier --check ."
 	},
+	"jest": {
+		"coverageReporters": [
+			"text",
+			"cobertura"
+		]
+	},
 	"eslintConfig": {
 		"extends": [
 			"react-app",
