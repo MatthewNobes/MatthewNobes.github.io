@@ -14,4 +14,8 @@ describe("WikiButton testing", () => {
 		const buttonAnchorTag = screen.getByText(/View Wiki/i).closest("a");
 		expect(buttonAnchorTag).toHaveAttribute("href", link);
 	});
+
+	it("should fail to test the ci pipeline", () => {
+		expect(true).tobe(false);
+	});
 });
