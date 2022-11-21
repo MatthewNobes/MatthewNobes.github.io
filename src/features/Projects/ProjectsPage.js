@@ -6,7 +6,7 @@ import { PageTitle } from "../../Components";
 const Introduction = () => (
 	<div className="Main-Content">
 		<p className="Main-Paragraph">
-			I have been programming for over a decade now and in this time I`&apos;`ve
+			I have been programming for over a decade now and in this time I&apos;ve
 			produced a variety of coding projects while gaining experience with a wide
 			array of programming and markup languages including:
 		</p>
