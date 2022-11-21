@@ -1,12 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import "../../App.css";
 import ProfileImage from "./ProfileImage";
-
-const Title = () => <h1 className="PageTitle">About Me</h1>;
+import { PageTitle } from "../../Components";
 
 export const Home = () => (
 	<div>
-		<Title />
+		<PageTitle titleText="About Me" />
 		<ProfileImage />
 		<div className="Main-Content">
 			<p>

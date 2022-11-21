@@ -1,11 +1,10 @@
 import ResourceList from "./ResourceList";
-
-const Title = () => <h1 className="PageTitle">Resources</h1>;
+import { PageTitle } from "../../Components";
 
 export const Resources = () => {
 	return (
 		<div>
-			<Title />
+			<PageTitle titleText="Resources" />
 			<div className="Main-Content">
 				<p>
 					Over the past few years, I have built a collection of bookmarked sites

@@ -1,8 +1,7 @@
 import "../../App.css";
 import LanguageCardPane from "./LanguageCardPane";
 import ProjectsList from "./ProjectsList";
-
-const Title = () => <h1 className="PageTitle">Projects</h1>;
+import { PageTitle } from "../../Components";
 
 const Introduction = () => (
 	<div className="Main-Content">
@@ -34,7 +33,7 @@ const Introduction = () => (
 
 export const ProjectsPage = () => (
 	<>
-		<Title />
+		<PageTitle titleText="Projects" />
 		<Introduction />
 		<div className="Main-Content">
 			<ProjectsList />
