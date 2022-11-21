@@ -1,8 +1,7 @@
 import Button from "react-bootstrap/Button";
 import css from "./ButtonPanel.module.css";
-import TryItButton from "./TryItButton";
 import PropTypes from "prop-types";
-import { WikiButton } from "./WikiButton/WikiButton";
+import { TryItButton, WikiButton } from "./Buttons";
 
 export const ButtonPanel = (props) => {
 	const repoLink = props.repoLink;
