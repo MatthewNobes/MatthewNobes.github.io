@@ -9,24 +9,33 @@ export const Home = () => (
 		<Title />
 		<ProfileImage />
 		<div className="Main-Content">
-			<p className="Main-Paragraph">
+			<p>
 				I am a full stack developer with primary interests in JavaScript, React
-				and PostgreSQL. I originally trained in Cyber Security, graduating with
-				First class honors in BSc Cyber Security and Forensic Computing. During
-				my degree I spent time as a front-end developer while working at a
-				multinational defence company during my industrial placement year,
-				rekindling my passion for software design and development. I have
-				continued to work for this company after my placement year, even doing
-				my final year dissertation for them, and pursing a full time career with
-				them.
+				and SQL (with PL/SQL and T-SQL). As a member of the{" "}
+				<a href="https://www.bcs.org/" rel="noreferrer">
+					British Computing Society
+				</a>{" "}
+				(MBCS) and{" "}
+				<a href="https://www.theiet.org/" rel="noreferrer">
+					Institute of Engineering & Technology
+				</a>{" "}
+				(ICTTech TMIET), I am professionally recognised for my skills, to learn
+				more these skill, please checkout this site. I originally trained in
+				Cyber Security, graduating with First class honors in BSc Cyber Security
+				and Forensic Computing. During my degree I spent time as a front-end
+				developer while working at a multinational defence company during my
+				industrial placement year, rekindling my passion for software design and
+				development. I have continued to work for this company after my
+				placement year, even doing my final year dissertation for them, and
+				pursing a full time career with them.
 			</p>
-			<p className="Main-Paragraph">
+			<p>
 				On this site is a summary of my software development skills, alongside a
 				portfolio of my public projects, taken directly from GitHub using its
 				API. All the code for these projects is public, although licensing can
 				vary.
 			</p>
-			<p className="Main-Paragraph">
+			<p>
 				I have been fortunate to be exposed to a number of different coding
 				languages and ecosystems over nearly a decade of learning and
 				experimenting. I have had the chance to cover C, Python, Java,
@@ -47,7 +56,7 @@ export const Home = () => (
 				</a>
 				.
 			</p>
-			<p className="Main-Paragraph">
+			<p>
 				In recent years my main focus has been on JavaScript and some of its
 				many derivations, frameworks and libraries. These include React,
 				SvelteKit, jQuery and Redux. Many of these can be seen on the Projects
@@ -56,13 +65,13 @@ export const Home = () => (
 				Svelte, learning how I can use it alongside Tailwind to provide quicker
 				prototypes of the many projects I wish to experiment with.
 			</p>
-			<p className="Main-Paragraph">
+			<p>
 				Exploring styling options has been one of the aims of my front-end
 				applications. Utilising tools like Material UI, React-bootstrap, SASS
 				and Tailwind CSS has enabled me to explore what works for me and to aid
 				my ability to make architectural decisions for future projects.
 			</p>
-			<p className="Main-Paragraph">
+			<p>
 				While working on data visualisation projects I have gained the
 				opportunity to investigate a wide array of data visualisation
 				techniques. From integrating data into{" "}
@@ -83,7 +92,7 @@ export const Home = () => (
 				</a>
 				.
 			</p>
-			<p className="Main-Paragraph">
+			<p>
 				In my personal projects and while working I have become familiar with a
 				mixture of different database variants and management tools. From
 				database systems SQL Server, PostgreSQL and Oracle. I have also had the
@@ -91,7 +100,7 @@ export const Home = () => (
 				(ASP.NET-based solutions). Currently, I am also looking into more modern
 				solutions such as Prisma and MongoDB.
 			</p>
-			<p className="Main-Paragraph">
+			<p>
 				Software testing is a vital part of ensuring quality when delivering any
 				software application. My testing experience has focused primarily on
 				automated testing tools, such as Jest and playwright. I now intend to
@@ -105,7 +114,7 @@ export const Home = () => (
 				</a>{" "}
 				system.
 			</p>
-			<p className="Main-Paragraph">
+			<p>
 				From studying Cyber Security and Forensic computing, I have become well
 				versed in a wide range of security skills and tools. With modules such
 				as Ethical Hacking, Malware Forensics, Security Management and
@@ -114,7 +123,7 @@ export const Home = () => (
 				degree has greatly influenced the way I produce software, with security
 				as a primary focus from the outset.
 			</p>
-			<p className="Main-Paragraph">
+			<p>
 				For those interested in how I made this site, you can check out the
 				source code{" "}
 				<a
