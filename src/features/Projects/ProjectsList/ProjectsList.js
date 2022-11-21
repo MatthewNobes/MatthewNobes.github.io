@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import Project from "../Project";
+import Project from "./Project";
 import { getProjects } from "../../../utils";
-import ProjectFilters from "../ProjectFilters";
+import ProjectFilters from "./ProjectFilters";
 
 export const ProjectsList = () => {
 	const holder = true;
