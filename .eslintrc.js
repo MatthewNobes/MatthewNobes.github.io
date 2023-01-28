@@ -6,18 +6,11 @@ module.exports = {
 		jest: true,
 		"jest/globals": true,
 	},
-	extends: [
-		"eslint:recommended",
-		"plugin:react/recommended",
-		"plugin:react/jsx-runtime",
-		"plugin:prettier/recommended",
-	],
+	extends: ["eslint:recommended", "plugin:react/recommended"],
 	overrides: [],
+	parser: "@babel/eslint-parser",
 	parserOptions: {
 		ecmaVersion: "latest",
-		ecmaFeatures: {
-			impliedStrict: true,
-		},
 		sourceType: "module",
 	},
 	plugins: ["react", "jest"],
