@@ -10,6 +10,7 @@ module.exports = {
 		"eslint:recommended",
 		"plugin:react/recommended",
 		"plugin:react/jsx-runtime",
+		"plugin:prettier/recommended",
 	],
 	overrides: [],
 	parserOptions: {
@@ -75,5 +76,10 @@ module.exports = {
 		],
 		"generator-star-spacing": ["error", "after"],
 		"react/react-in-jsx-scope": "off",
+	},
+	settings: {
+		react: {
+			version: "detect",
+		},
 	},
 };
