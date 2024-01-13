@@ -18,13 +18,13 @@ To get started with this application, you will first need to download all the
 necessary dependencies for the project using the following command:
 
 ```
-npm i
+pnpm i
 ```
 
 Once downloaded, you can then launch the application using the start command:
 
 ```
-npm start
+pnpm start
 ```
 
 ### Testing
@@ -34,7 +34,7 @@ quickly checked for defects against its functionality when new content is added.
 The test suite can be launched using the following npm command:
 
 ```
-npm test
+pnpm test
 ```
 
 ### Development guidance
@@ -64,8 +64,8 @@ deploy and a pre-deploy. All that is needed to push to this branch is the deploy
 command.
 
 ```
-npm run predeploy
-npm run deploy
+pnpm run predeploy
+pnpm run deploy
 ```
 
 The production version can be viewed at:
